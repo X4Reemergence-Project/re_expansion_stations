@@ -287,6 +287,11 @@
 					<ware ware="energycells" amount="347" />
 				</primary>
 			</production>
+    		<research time="10">
+        		<research>
+          			<ware ware="research_module_production" />
+        		</research>
+		    </research>
 			<component ref="prod_gen_energycells_small_macro" />
 			<restriction licence="station_gen_basic" />
   				<owner faction="antigone" />
@@ -308,6 +313,11 @@
 					<ware ware="siliconcarbide" amount="180" />
 				</primary>
 			</production>
+    		<research time="10">
+        		<research>
+          			<ware ware="research_module_production" />
+        		</research>
+		    </research>
 			<component ref="prod_ter_energycells_medium_macro" />
 			<restriction licence="station_gen_basic" />
   				<owner faction="terran" />
@@ -321,6 +331,11 @@
 					<ware ware="energycells" amount="5205" />
 				</primary>
 			</production>
+    		<research time="10">
+        		<research>
+          			<ware ware="research_module_production" />
+        		</research>
+		    </research>
 			<component ref="prod_gen_energycells_fusion_macro" />
 			<restriction licence="station_gen_basic" />
   				<owner faction="antigone" />
