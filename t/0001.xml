@@ -2,17 +2,20 @@
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xmllib/diff.xsd">
 	<add sel="/language">	
 		<!--MODULES-->
-		<page id="4837253" title="Station Modules" descr="Names\Descriptions" voice="yes">	
+		<page id="4837253" title="Station Modules" descr="Names\Descriptions" voice="yes">
+			<t id="1">Small</t>	
+			<t id="2">Medium</t>	
+			<t id="3">Large</t>	
+			<t id="4">Fusion</t>	
+			<t id="5">M/AM</t>			
 			<t id="10000">(Generic)Solar Energy - Small</t>
 			<t id="10001">{20006,102}(No information available)</t>
-			<t id="10010">(Generic)Solar Energy - Large</t>
-			<t id="10011">{20006,102}(No information available)</t>
-			<t id="10020">(Generic)Fusion Energy</t>
-			<t id="10021">Modern, hyperefficient solar power accounts for the majority of station-scale energy generation, but fusion reactors remain a practical alternative in sectors with limited sunlight. Although considered outdated, the Gravitic Fusion Reactor provides steady output independent of local solar conditions, using artificial gravity to compress and confine hydrogen plasma within a spherical reaction chamber. Generations of refinement have made the technology well understood, allowing reactors to be built at the scale and output required by major industrial complexes.\n\nSupplied hydrogen is processed into fusion fuel, while superfluid coolant replenishes the cryogenic circuits supporting the reactor's counter-rotating field generators. Extensive heat-transfer systems deliver energy from the reaction to the module's power conversion equipment, with graphene consumed by automated maintenance systems to renew thermal coatings and replace worn components.\n\nDestruction of the reactor may trigger a catastrophic release of energy stored in its containment and power conversion systems, producing a powerful explosion that endangers any craft in the immediate vicinity.</t>
 			<t id="10010">(Generic)Solar Energy - Medium</t>
 			<t id="10011">{20006,102}(No information available)</t>
-			<t id="10020">(Generic)Solar Energy - Large</t>
-			<t id="10021">{20006,102}(No information available)</t>
+			<t id="10030">(Generic)Solar Energy - Large</t>
+			<t id="10031">{20006,102}(No information available)</t>
+			<t id="10040">(Generic)Fusion Energy</t>
+			<t id="10041">Modern, hyperefficient solar power accounts for the majority of station-scale energy generation, but fusion reactors remain a practical alternative in sectors with limited sunlight. Although considered outdated, the Gravitic Fusion Reactor provides steady output independent of local solar conditions, using artificial gravity to compress and confine hydrogen plasma within a spherical reaction chamber. Generations of refinement have made the technology well understood, allowing reactors to be built at the scale and output required by major industrial complexes.\n\nSupplied hydrogen is processed into fusion fuel, while superfluid coolant replenishes the cryogenic circuits supporting the reactor's counter-rotating field generators. Extensive heat-transfer systems deliver energy from the reaction to the module's power conversion equipment, with graphene consumed by automated maintenance systems to renew thermal coatings and replace worn components.\n\nDestruction of the reactor may trigger a catastrophic release of energy stored in its containment and power conversion systems, producing a powerful explosion that endangers any craft in the immediate vicinity.</t>
 			<t id="11000">(Argon)Cross Y</t>
 			<t id="11001">{20006,102}(No information available)</t>
 			<t id="12000">(Teladi)Cross 5-way</t>
@@ -49,4 +52,6 @@
 			<t id="16081">{20006,102}(No information available)</t>
 		</page>		
 	</add>
+	<replace sel="/language/page[@id='20104']/t[@id='15201']/text()[1]">Solar Energy - Small</replace>
+	<replace sel="/language/page[@id='20104']/t[@id='10801']/text()[1]">Solar Energy - Medium</replace>	
 </diff>  
