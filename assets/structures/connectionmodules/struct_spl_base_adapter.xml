@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-18 11:50:53 from Blender-->
+<components>
+  <component name="struct_spl_base_adapter" class="connectionmodule">
+		<source geometry="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_spl_base_adapter_data" />
+    <layers>
+      <layer>
+        <lights>
+          <box name="XU BoxLight_01" shadow="0" r="255" g="170" b="140" intensity="1.466122" specularintensity="1" range="210" shadowrange="210" lighteffect="1" lenseffect="none" trigger="0">
+            <size x="300" y="210" z="210" />
+            <offset>
+              <position x="69.61736" y="73.6424" z="-80.24544" />
+              <quaternion qx="0.1069208" qy="-0.07486665" qz="-0.8121441" qw="-0.5686694" />
+            </offset>
+          </box>
+          <box name="XU BoxLight_02" shadow="0" r="255" g="170" b="140" intensity="1.466124" specularintensity="1" range="210" shadowrange="210" lighteffect="1" lenseffect="none" trigger="0">
+            <size x="300" y="210" z="210" />
+            <offset>
+              <position x="-67.3028" y="73.6424" z="-80.24544" />
+              <quaternion qx="0.07486714" qy="-0.1069206" qz="-0.5686696" qw="-0.8121439" />
+            </offset>
+          </box>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="connectionmodule" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="0" y="-149.2874" z="179.855" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="animation detail_m forceoutline nocollision part textureanimation ">
+        <animations>
+          <animation name="loop" start="0" end="100" />
+        </animations>
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="103.2573" y="180.7996" z="196.8805" />
+              <center x="0" y="-7.502701" z="-0.2263641" />
+            </size>
+            <size_raw>
+              <max x="103.2573" y="180.7996" z="196.8805" />
+              <center x="1.907349e-06" y="-7.502708" z="-0.2263641" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="100" value="-1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_m_main" tags="detail_m forceoutline nocollision part ">
+        <parts>
+          <part name="detail_m_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_alphatexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="101.0197" y="200.729" z="194.3965" />
+              <center x="0" y="0.2256012" z="4.497398" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                  <material id="2" ref="p1split.split_p1_hulltexture_01" />
+                  <material id="3" ref="p1split.spl_p1_fx" />
+                  <material id="4" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                  <material id="2" ref="p1split.split_p1_hulltexture_01" />
+                  <material id="3" ref="p1split.spl_p1_fx" />
+                  <material id="4" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture_01_aged" />
+                  <material id="2" ref="p1split.split_p1_hulltexture_01" />
+                  <material id="3" ref="p1split.spl_p1_fx" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1split.split_p1_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="106.1691" y="192.8254" z="200.2109" />
+              <center x="1.907349e-06" y="4.391121" z="0.2116699" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionSnap001" tags="snap ">
+        <offset>
+          <position x="0" y="1.478195e-05" z="200.4226" />
+        </offset>
+      </connection>
+      <connection name="ConnectionSnap002" tags="snap ">
+        <offset>
+          <position x="0" y="1.478195e-05" z="-199.9993" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-1.629207e-07" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

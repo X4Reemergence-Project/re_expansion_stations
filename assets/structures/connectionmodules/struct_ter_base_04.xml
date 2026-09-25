@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-16 12:20:22 from Blender-->
+<components>
+  <component name="struct_ter_base_04" class="connectionmodule">
+		<source geometry="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_base_04_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="Point" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-200.0097" z="-714.8229" />
+            </offset>
+          </omni>
+          <omni name="Point001" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-200.0097" z="-669.0538" />
+            </offset>
+          </omni>
+          <omni name="Point002" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="200.0099" z="669.0537" />
+            </offset>
+          </omni>
+          <omni name="Point003" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="200.0099" z="714.8229" />
+            </offset>
+          </omni>
+          <omni name="Point004" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-179.5689" z="-545.3832" />
+            </offset>
+          </omni>
+          <omni name="Point005" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-149.6408" z="-454.486" />
+            </offset>
+          </omni>
+          <omni name="Point006" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-119.7126" z="-363.5888" />
+            </offset>
+          </omni>
+          <omni name="Point007" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-89.78446" z="-272.6916" />
+            </offset>
+          </omni>
+          <omni name="Point008" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-59.85629" z="-181.7944" />
+            </offset>
+          </omni>
+          <omni name="Point009" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-29.92815" z="-90.89721" />
+            </offset>
+          </omni>
+          <omni name="Point010" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="-2.002716e-05" z="4.768372e-07" />
+            </offset>
+          </omni>
+          <omni name="Point011" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="29.92818" z="90.89721" />
+            </offset>
+          </omni>
+          <omni name="Point012" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="59.8564" z="181.7944" />
+            </offset>
+          </omni>
+          <omni name="Point013" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="89.78455" z="272.6915" />
+            </offset>
+          </omni>
+          <omni name="Point014" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="119.7127" z="360.6503" />
+            </offset>
+          </omni>
+          <omni name="Point015" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="149.6409" z="454.4859" />
+            </offset>
+          </omni>
+          <omni name="Point016" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="110" y="179.5691" z="545.3831" />
+            </offset>
+          </omni>
+          <omni name="Point017" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-200.0097" z="-714.8229" />
+            </offset>
+          </omni>
+          <omni name="Point018" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-200.0097" z="-669.0538" />
+            </offset>
+          </omni>
+          <omni name="Point019" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="200.0099" z="669.0537" />
+            </offset>
+          </omni>
+          <omni name="Point020" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="200.0099" z="714.8229" />
+            </offset>
+          </omni>
+          <omni name="Point021" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-179.5689" z="-545.3832" />
+            </offset>
+          </omni>
+          <omni name="Point022" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-149.6408" z="-454.486" />
+            </offset>
+          </omni>
+          <omni name="Point023" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-119.7126" z="-363.5888" />
+            </offset>
+          </omni>
+          <omni name="Point024" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-89.78446" z="-272.6916" />
+            </offset>
+          </omni>
+          <omni name="Point025" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-59.85629" z="-181.7944" />
+            </offset>
+          </omni>
+          <omni name="Point026" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-29.92815" z="-90.89721" />
+            </offset>
+          </omni>
+          <omni name="Point027" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="-2.002716e-05" z="4.768372e-07" />
+            </offset>
+          </omni>
+          <omni name="Point028" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="29.92818" z="90.89721" />
+            </offset>
+          </omni>
+          <omni name="Point029" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="59.8564" z="181.7944" />
+            </offset>
+          </omni>
+          <omni name="Point030" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="89.78455" z="272.6915" />
+            </offset>
+          </omni>
+          <omni name="Point031" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="119.7127" z="360.6503" />
+            </offset>
+          </omni>
+          <omni name="Point032" shadow="0" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="149.6409" z="454.4859" />
+            </offset>
+          </omni>
+          <omni name="Point033" shadow="0" r="172" g="203" b="255" intensity="2.10609" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-110" y="179.5691" z="545.3831" />
+            </offset>
+          </omni>
+          <omni name="Point034" shadow="1" r="172" g="203" b="255" intensity="1.455466" specularintensity="1" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="247.2185" z="739.6337" />
+            </offset>
+          </omni>
+          <omni name="Point035" shadow="1" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-152.8011" z="-739.6339" />
+            </offset>
+          </omni>
+          <omni name="Point036" shadow="1" r="172" g="203" b="255" intensity="1.455466" specularintensity="1" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-247.2182" z="-739.6338" />
+            </offset>
+          </omni>
+          <omni name="Point037" shadow="1" r="172" g="203" b="255" intensity="1.716352" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="152.8014" z="739.6338" />
+            </offset>
+          </omni>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="connectionmodule">
+				<offset/>
+			</connection>
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="0" y="250.1047" z="772.1792" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer" tags="mission ">
+        <offset>
+          <position x="0" y="-149.9149" z="-772.1793" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="animation detail_m forceoutline nocollision part textureanimation ">
+        <animations>
+          <animation name="loop" start="0" end="100" />
+        </animations>
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="10.17245" y="256.9651" z="761.4766" />
+              <center x="-0.0006933212" y="0.0001220703" z="0" />
+            </size>
+            <size_raw>
+              <max x="10.17245" y="256.9651" z="761.4766" />
+              <center x="-0.0006930828" y="0.0001220703" z="-3.051758e-05" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="100" value="-1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_s_main" tags="detail_s forceoutline nocollision part ">
+        <parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_alphatexture_b" />
+                  <material id="2" ref="generic.generic_p1_alphatexture" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                  <material id="4" ref="p1effects.p1_lightcone_soft" />
+                  <material id="5" ref="generic.generic_p1_fx" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="137.0491" y="255.0077" z="763.9591" />
+              <center x="3.814697e-06" y="0.0001220703" z="-3.051758e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_decals" tags="detail_xl forceoutline nocollision part ">
+        <parts>
+          <part name="fx_decals">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_p1_decal_01_ter" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="116.4958" y="250.1046" z="779.3657" />
+              <center x="-1.907349e-06" y="0.0001296997" z="-3.051758e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_fx_01" />
+                  <material id="3" ref="p1terran.ter_p1_hullpattern_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_fx_01" />
+                  <material id="3" ref="p1terran.ter_p1_hullpattern_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_fx_01" />
+                  <material id="3" ref="p1terran.ter_p1_hullpattern_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1terran.ter_p1_hullpattern_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="117.4822" y="250.0107" z="800.0004" />
+              <center x="1.907349e-06" y="0.0001296997" z="-3.051758e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="snap001" tags="snap ">
+        <offset>
+          <position x="0" y="200.0099" z="800.0001" />
+        </offset>
+      </connection>
+      <connection name="snap002" tags="snap ">
+        <offset>
+          <position x="0" y="-200.0097" z="-800.0002" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-1.629207e-07" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

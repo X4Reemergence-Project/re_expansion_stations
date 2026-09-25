@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<components>
+	<component name="prod_gen_energycells_small" class="production">
+		<source geometry="\extensions\re_expansion_stations\assets\structures\production\prod_gen_energycells_small_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<box name="XU BoxLight008" shadow="0" r="208" g="238" b="255" lighteffect="1" trigger="1" intensity="1.4" specularintensity="1">
+						<size x="300" y="150" z="150"/>
+						<lightanimations/>
+						<offset>
+							<position x="75.4028" y="18.4773" z="1.558136"/>
+							<quaternion qx="0.5" qy="-0.5" qz="-0.5000001" qw="-0.4999999"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight009" shadow="0" r="208" g="238" b="255" lighteffect="1" trigger="1" intensity="1.4" specularintensity="1">
+						<size x="300" y="150" z="150"/>
+						<lightanimations/>
+						<offset>
+							<position x="75.4028" y="-17.79808" z="1.558136"/>
+							<quaternion qx="0.5" qy="-0.5" qz="-0.5000001" qw="-0.4999999"/>
+						</offset>
+					</box>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="production">
+				<offset/>
+			</connection>
+			<connection name="Connection001" tags="part  ">
+				<offset/>
+				<parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_fx" />
+                  <material id="3" ref="generic.generic_p1_solarpanels" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_fx" />
+                  <material id="3" ref="generic.generic_p1_solarpanels" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_fx" />
+                  <material id="3" ref="generic.generic_p1_solarpanels" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="286.9732" y="733.4675" z="439.6312" />
+              <center x="136.9808" y="18.20193" z="-7.629395e-05" />
+            </size>
+						<sounds>
+							<sound name="XU SoundEmitter Solarpanel03" ref="anim_energycells_ol">
+								<offset>
+									<position x="271.116" y="-8.88929" z="-224.469"/>
+								</offset>
+							</sound>
+							<sound name="XU SoundEmitter Solarpanel02" ref="anim_energycells_ol">
+								<offset>
+									<position x="266.327" y="52.8868" z="224.475"/>
+								</offset>
+							</sound>
+						</sounds>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+      <connection name="ConnectionFordetail_m_main" tags="part nocollision detail_m forceoutline ">
+        <parts>
+          <part name="detail_m_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_alphatexture" />
+                  <material id="2" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="148.5484" y="727.1909" z="422.9795" />
+              <center x="271.9237" y="18.27533" z="-6.103516e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+			<connection name="Connection002" tags="part detail_m nocollision animation textureanimation forceoutline  ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="1" end="100"/>
+				</animations>
+				<parts>
+          <part name="fx_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="164.1826" y="734.0208" z="423.035" />
+              <center x="256.9457" y="18.31244" z="-4.577637e-05" />
+            </size>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0.57475" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="100" value="-0.42525" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection003" tags="part detail_m nocollision animation textureanimation forceoutline  ">
+				<offset/>
+				<animations>
+					<animation name="loop" start="1" end="100"/>
+				</animations>
+				<parts>
+					<part name="fx_electric_wires">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1effects.p1_gradient_colour"/>
+								</materials>
+							</lod>
+						</lods>
+            <size>
+              <max x="123.0445" y="685.4312" z="377.4508" />
+              <center x="292.8406" y="18.64435" z="0.0003051758" />
+            </size>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="100" value="-1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection004" tags="part nocollision detail_s forceoutline  ">
+				<offset/>
+				<parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_alphatexture" />
+                  <material id="3" ref="generic.generic_p1_fx" />
+                  <material id="4" ref="p1effects.p1_lightcone_soft" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="101.7492" y="79.42446" z="159.4062" />
+              <center x="-7.649456" y="0" z="0" />
+            </size>
+          </part>
+				</parts>
+			</connection>
+			<connection name="Connection005" tags="part detail_m nocollision forceoutline  ">
+				<offset>
+					<position x="0" y="0" z="0.69168"/>
+				</offset>
+				<parts>
+          <part name="fx_decals">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_p1_decal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="270.4092" y="658.5847" z="411.4646" />
+              <center x="146.2826" y="15.79297" z="-6.103516e-05" />
+            </size>
+          </part>
+				</parts>
+			</connection>
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="-53.06841" y="-9.357388" z="293.1201" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer" tags="mission ">
+        <offset>
+          <position x="-53.82047" y="2.677664" z="-293.1202" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="snap" tags="snap ">
+        <offset>
+          <position x="-149.9922" y="0" z="-3.051758e-05" />
+          <quaternion qx="0" qy="0.7071069" qz="0" qw="-0.7071066" />
+        </offset>
+      </connection>
+		</connections>
+	</component>
+</components>

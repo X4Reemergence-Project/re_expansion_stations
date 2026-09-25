@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-18 10:33:21 from Blender-->
+<components>
+  <component name="struct_tel_cross_hex" class="connectionmodule">
+		<source geometry="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_tel_cross_hex_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="Point001" shadow="1" r="255" g="208" b="185" intensity="1.040996" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="68" z="400" />
+            </offset>
+          </omni>
+          <omni name="Point002" shadow="1" r="255" g="208" b="185" intensity="1.040996" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-346.4102" y="68" z="200" />
+              <quaternion qx="0" qy="0.5" qz="0" qw="-0.8660254" />
+            </offset>
+          </omni>
+          <omni name="Point003" shadow="1" r="255" g="208" b="185" intensity="1.040996" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-346.4102" y="68" z="-200" />
+              <quaternion qx="0" qy="0.8660254" qz="0" qw="-0.5" />
+            </offset>
+          </omni>
+          <omni name="Point004" shadow="1" r="255" g="208" b="185" intensity="1.040996" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="6.103516e-05" y="68" z="-400" />
+              <quaternion qx="0" qy="-1" qz="0" qw="-1.629207e-07" />
+            </offset>
+          </omni>
+          <omni name="Point005" shadow="1" r="255" g="208" b="185" intensity="1.040996" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="346.4102" y="68" z="-199.9999" />
+              <quaternion qx="0" qy="-0.8660253" qz="0" qw="-0.5000002" />
+            </offset>
+          </omni>
+          <omni name="Point006" shadow="1" r="255" g="208" b="185" intensity="1.040996" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="346.4101" y="68" z="200.0001" />
+              <quaternion qx="0" qy="-0.4999996" qz="0" qw="-0.8660256" />
+            </offset>
+          </omni>
+          <omni name="Point007" shadow="0" r="113" g="162" b="213" intensity="1.087538" specularintensity="1" range="200" shadowrange="200" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="350" z="0" />
+            </offset>
+          </omni>
+          <omni name="Point008" shadow="0" r="113" g="162" b="213" intensity="0.7461552" specularintensity="1" range="200" shadowrange="200" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="207.8935" y="-84.89065" z="-120.0273" />
+            </offset>
+          </omni>
+          <omni name="Point009" shadow="0" r="113" g="162" b="213" intensity="0.7461552" specularintensity="1" range="200" shadowrange="200" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="3.574217e-05" y="-84.89064" z="-240.0547" />
+            </offset>
+          </omni>
+          <omni name="Point010" shadow="0" r="113" g="162" b="213" intensity="0.7461552" specularintensity="1" range="200" shadowrange="200" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-207.8935" y="-84.89065" z="-120.0274" />
+            </offset>
+          </omni>
+          <omni name="Point011" shadow="0" r="113" g="162" b="213" intensity="0.7461552" specularintensity="1" range="200" shadowrange="200" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="207.8934" y="-84.89064" z="120.0274" />
+            </offset>
+          </omni>
+          <omni name="Point012" shadow="0" r="113" g="162" b="213" intensity="0.7461552" specularintensity="1" range="200" shadowrange="200" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-2.876345e-08" y="-84.89064" z="240.0547" />
+            </offset>
+          </omni>
+          <omni name="Point013" shadow="0" r="113" g="162" b="213" intensity="0.7461552" specularintensity="1" range="200" shadowrange="200" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-207.8935" y="-84.89064" z="120.0273" />
+            </offset>
+          </omni>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="connectionmodule" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="38.23843" y="301.4984" z="45.00824" />
+          <quaternion qx="0" qy="-0.8660254" qz="0" qw="-0.5000001" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer" tags="mission ">
+        <offset>
+          <position x="-38.23859" y="301.4984" z="45.00824" />
+          <quaternion qx="0" qy="0.8660256" qz="0" qw="-0.4999997" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="detail_m nocollision part ">
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="482.0638" y="277.036" z="396.5641" />
+              <center x="2.288818e-05" y="105.3934" z="1.148102" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_m_main" tags="detail_m nocollision part ">
+        <parts>
+          <part name="detail_m_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1teladi.tel_p1_fx" />
+                  <material id="3" ref="p1effects.p1_lightcone_soft" />
+                  <material id="4" ref="generic.generic_p1_alphatexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="492.4537" y="292.484" z="507.9556" />
+              <center x="1.525879e-05" y="102.7928" z="-3.051758e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_decals" tags="detail_m fx nocollision part ">
+        <parts>
+          <part name="fx_decals">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_p1_decal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="528.9143" y="142.8703" z="592.8823" />
+              <center x="1.525879e-05" y="92.22021" z="3.051758e-05" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1teladi.tel_p1_fx" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1teladi.tel_p1_fx" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1teladi.tel_p1_fx" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="568.6133" y="291.7521" z="600.0004" />
+              <center x="-4.577637e-05" y="91.75211" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="snap001" tags="snap ">
+        <offset>
+          <position x="0" y="-200" z="0" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="snap002" tags="snap ">
+        <offset>
+          <position x="0" y="-0.2519078" z="600.0004" />
+        </offset>
+      </connection>
+      <connection name="snap003" tags="snap ">
+        <offset>
+          <position x="8.940703e-05" y="-0.2519078" z="-600.0004" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-1.629207e-07" />
+        </offset>
+      </connection>
+      <connection name="snap004" tags="snap ">
+        <offset>
+          <position x="-519.6156" y="-0.2519078" z="-300.0003" />
+          <quaternion qx="0" qy="0.8660254" qz="0" qw="-0.5" />
+        </offset>
+      </connection>
+      <connection name="snap005" tags="snap ">
+        <offset>
+          <position x="519.6155" y="-0.2519078" z="300.0004" />
+          <quaternion qx="0" qy="-0.5" qz="0" qw="-0.8660254" />
+        </offset>
+      </connection>
+      <connection name="snap006" tags="snap ">
+        <offset>
+          <position x="519.6157" y="-0.2519078" z="-300.0001" />
+          <quaternion qx="0" qy="-0.8660254" qz="0" qw="-0.5" />
+        </offset>
+      </connection>
+      <connection name="snap007" tags="snap ">
+        <offset>
+          <position x="-519.6157" y="-0.2519078" z="300.0002" />
+          <quaternion qx="0" qy="0.5372996" qz="0" qw="-0.8433914" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

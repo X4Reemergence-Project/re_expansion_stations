@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-17 11:13:46 from Blender-->
+<components>
+  <component name="struct_bor_arc" class="connectionmodule">
+		<source geometry="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_bor_arc_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="space" tags="connectionmodule" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="-45.13792" y="22.8021" z="34.67913" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer" tags="mission ">
+        <offset>
+          <position x="99.86916" y="22.78974" z="40.5816" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordetail_s_main" tags="detail_s forceoutline nocollision part ">
+        <parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_alphatexture_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="175.3522" y="165.61" z="754.5773" />
+              <center x="116.6" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_fx_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_hullpattern_02" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_fx_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_hullpattern_02" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_fx_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_hullpattern_02" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_02" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="174.4511" y="127.8776" z="770.7315" />
+              <center x="116.367" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="snap001" tags="snap ">
+        <offset>
+          <position x="170.8603" y="0" z="-733.7606" />
+          <quaternion qx="0" qy="-0.9807853" qz="0" qw="-0.1950903" />
+        </offset>
+      </connection>
+      <connection name="snap002" tags="snap ">
+        <offset>
+          <position x="170.8603" y="0" z="733.7606" />
+          <quaternion qx="0" qy="-0.1950903" qz="0" qw="-0.9807853" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

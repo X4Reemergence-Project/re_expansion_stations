@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-19 18:08:39 from Blender-->
+<components>
+  <component name="prod_ter_energycells_medium" class="production">
+		<source geometry="\extensions\re_expansion_stations\assets\structures\production\prod_ter_energycells_medium_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+			<connection name="container" tags="contents" value="0"/>
+      <connection name="space" tags="production" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="0" y="3.523891" z="-435.0005" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071067" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer01" tags="mission ">
+        <offset>
+          <position x="0" y="3.523891" z="-436.0626" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071067" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="animation detail_m forceoutline nocollision part textureanimation ">
+        <animations>
+          <animation name="loop" start="0" end="100" />
+        </animations>
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="559.4192" y="0.7257385" z="450.5341" />
+              <center x="0" y="0.3103869" z="13.41187" />
+            </size>
+            <size_raw>
+              <max x="559.4192" y="0.7257385" z="450.5341" />
+              <center x="-1.525879e-05" y="0.3103869" z="13.41185" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="100" value="-1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_s_main" tags="detail_s forceoutline nocollision part ">
+        <parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="generic.generic_p1_alphatexture" />
+                  <material id="4" ref="p1terran.ter_p1_fx_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="559.4305" y="7.234541" z="466.1208" />
+              <center x="7.629395e-05" y="2.09791" z="33.87915" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_decals" tags="detail_m forceoutline nocollision part ">
+        <parts>
+          <part name="fx_decals">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_p1_decal_01_ter" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="120.6455" y="24.9135" z="465.6771" />
+              <center x="1.525879e-05" y="0" z="34.23489" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1terran.ter_p1_fx_01" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                  <material id="4" ref="generic.generic_p1_solarpanels" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1terran.ter_p1_fx_01" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                  <material id="4" ref="generic.generic_p1_solarpanels" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1terran.ter_p1_fx_01" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                  <material id="4" ref="generic.generic_p1_solarpanels" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1terran.ter_p1_hullpattern_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="556.8704" y="25.00001" z="468.3616" />
+              <center x="7.629395e-05" y="0" z="31.63838" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionSnap001" tags="snap ">
+        <offset>
+          <position x="0" y="0" z="500" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

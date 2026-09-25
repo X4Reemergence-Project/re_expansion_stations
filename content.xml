@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <content id="re_expansion_stations" name="X4: RE Additonal Station Modules" description="We heard you liked new modules so we made new modules to put next to your new modules so you can see new modules with your other new modules." author="X4:RE Team" version="100" date="2026-09-25" save="0" enabled="1">
+  <dependency version="900" />
+  <dependency id="ego_dlc_split" optional="false" name="Split Vendetta" />
+  <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity" />
+  <dependency id="ego_dlc_boron" optional="false" name="Kingdom End" />
+  <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
+  <dependency id="ego_dlc_timelines" optional="true" name="Timelines"/>  
+</content>

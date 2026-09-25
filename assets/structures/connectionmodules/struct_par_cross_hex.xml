@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-17 10:13:42 from Blender-->
+<components>
+  <component name="struct_par_cross_hex" class="connectionmodule">
+		<source geometry="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_par_cross_hex_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="Point" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="95" z="-205.8024" />
+            </offset>
+          </omni>
+          <omni name="Point001" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="178.2301" y="95" z="-102.9012" />
+            </offset>
+          </omni>
+          <omni name="Point002" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="178.2301" y="95" z="102.9013" />
+            </offset>
+          </omni>
+          <omni name="Point003" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-3.051758e-05" y="95" z="205.8024" />
+            </offset>
+          </omni>
+          <omni name="Point004" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-178.2302" y="95" z="102.9012" />
+            </offset>
+          </omni>
+          <omni name="Point005" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-178.2301" y="95" z="-102.9012" />
+            </offset>
+          </omni>
+          <omni name="Point006" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-95" z="-205.8024" />
+            </offset>
+          </omni>
+          <omni name="Point007" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="178.2301" y="-95" z="-102.9012" />
+            </offset>
+          </omni>
+          <omni name="Point008" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="178.2301" y="-95" z="102.9013" />
+            </offset>
+          </omni>
+          <omni name="Point009" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-3.051758e-05" y="-95" z="205.8024" />
+            </offset>
+          </omni>
+          <omni name="Point010" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-178.2302" y="-95" z="102.9012" />
+            </offset>
+          </omni>
+          <omni name="Point011" shadow="1" r="255" g="208" b="185" intensity="1.602665" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-178.2301" y="-95" z="-102.9012" />
+            </offset>
+          </omni>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="connectionmodule" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="388.8375" y="71.27145" z="12.72748" />
+          <quaternion qx="0" qy="0" qz="0.5735765" qw="-0.819152" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer" tags="mission ">
+        <offset>
+          <position x="-341.2074" y="100.3455" z="195.7577" />
+          <quaternion qx="0" qy="-0.2164396" qz="0" qw="-0.976296" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="detail_m forceoutline nocollision part ">
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="366.2667" y="189.74" z="393.8732" />
+              <center x="-1.525879e-05" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_s_main" tags="detail_s forceoutline nocollision part ">
+        <parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="generic.generic_p1_fx" />
+                  <material id="3" ref="p1effects.p1_lightcone_soft" />
+                  <material id="4" ref="generic.generic_p1_alphatexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="293.3864" y="166.1168" z="338.475" />
+              <center x="-7.629395e-06" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_decals" tags="detail_m forceoutline fx nocollision part ">
+        <parts>
+          <part name="fx_decals">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_p1_decal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="393.6049" y="200.1" z="397.3912" />
+              <center x="7.629395e-06" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paranid.paranid_p1_hullpattern_01" />
+                  <material id="2" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p1paranid.paranid_p1_hullpattern_01" />
+                  <material id="2" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p1paranid.paranid_p1_hullpattern_01" />
+                  <material id="2" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1paranid.paranid_p1_hullpattern_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="393.833" y="200.0002" z="400.0004" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="snap001" tags="snap ">
+        <offset>
+          <position x="0" y="-200" z="0" />
+          <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+      <connection name="snap002" tags="snap ">
+        <offset>
+          <position x="-5.960468e-05" y="0" z="400.0002" />
+        </offset>
+      </connection>
+      <connection name="snap003" tags="snap ">
+        <offset>
+          <position x="0" y="0" z="-400.0002" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-1.629207e-07" />
+        </offset>
+      </connection>
+      <connection name="snap004" tags="snap ">
+        <offset>
+          <position x="-346.4103" y="0" z="-200.0002" />
+          <quaternion qx="0" qy="0.8660254" qz="0" qw="-0.5" />
+        </offset>
+      </connection>
+      <connection name="snap005" tags="snap ">
+        <offset>
+          <position x="346.4104" y="0" z="200.0002" />
+          <quaternion qx="0" qy="-0.5" qz="0" qw="-0.8660254" />
+        </offset>
+      </connection>
+      <connection name="snap006" tags="snap ">
+        <offset>
+          <position x="346.4104" y="0" z="-200.0001" />
+          <quaternion qx="0" qy="-0.8660254" qz="0" qw="-0.5" />
+        </offset>
+      </connection>
+      <connection name="snap007" tags="snap ">
+        <offset>
+          <position x="-346.4104" y="0" z="200.0001" />
+          <quaternion qx="0" qy="0.5372996" qz="0" qw="-0.8433914" />
+        </offset>
+      </connection>
+      <connection name="snap008" tags="snap ">
+        <offset>
+          <position x="0" y="200.0002" z="0" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

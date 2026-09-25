@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--created by: Rothank 23.06.2025-->
+<macros>
+  <macro name="prod_gen_energycells_small_macro" class="production">
+    <component ref="prod_gen_energycells_small" />
+    <properties>
+      <identification name="{4837253,10000}" shortname="{4837253,10000}" description="{4837253,10001}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="2000" shield="10000" />
+      <hull max="200000" />
+      <secrecy level="2" />
+      <production wares="energycells">
+        <queue ware="energycells" method="terran" />
+      </production>
+      <workforce max="45" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--created by: Rothank 23.06.2025-->
+<macros>
+  <macro name="prod_gen_energycells_fusion_macro" class="production">
+    <component ref="prod_gen_energycells_fusion" />
+    <properties>
+      <identification name="{4837253,10020}" shortname="{4837253,10020}" description="{4837253,10021}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="10000" shield="50000" />
+      <hull max="200000" />
+      <secrecy level="2" />
+      <production wares="energycells">
+        <queue ware="energycells" method="fusioncore" /> 
+      </production>
+      <workforce max="360" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--created by: Rothank 23.06.2025-->
+<macros>
+  <macro name="prod_ter_energycells_medium_macro" class="production">
+    <component ref="prod_ter_energycells_medium" />
+    <properties>
+      <identification name="{4837253,10010}" shortname="{4837253,10010}" makerrace="terran" description="{4837253,10011}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="1000" shield="5000" />
+      <hull max="217000" />
+      <secrecy level="2" />
+      <production wares="energycells">
+        <queue ware="energycells" />
+      </production>
+      <workforce max="90" />
+    </properties>
+  </macro>
+</macros>

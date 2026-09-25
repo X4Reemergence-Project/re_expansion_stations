@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index">
+	<!--MODULES-->
+		<!--Connector-->
+		<entry name="struct_arg_cross_y_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_arg_cross_y_macro"/>
+		<entry name="struct_tel_cross_y_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_tel_cross_y_macro"/>
+		<entry name="struct_spl_cross_classic_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_spl_cross_classic_macro"/>
+		<entry name="struct_bor_cross_classic_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_bor_cross_classic_macro"/>
+		<entry name="struct_ter_arc_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_arc_macro"/>
+		<entry name="struct_ter_cross_x_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_x_macro"/>
+		<entry name="struct_ter_cross_classic_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_classic_macro"/>
+		<entry name="struct_ter_cross_hex_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_hex_macro"/>
+		<entry name="struct_ter_cross_t_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_t_macro"/>
+		<entry name="struct_ter_cross_t_vertical_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_t_vertical_macro"/>
+		<entry name="struct_ter_cross_t_vertical_02_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_t_vertical_02_macro"/>
+		<entry name="struct_ter_base_04_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_base_04_macro"/>
+		<entry name="struct_par_cross_hex_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_par_cross_hex_macro"/>
+		<entry name="struct_bor_arc_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_bor_arc_macro"/>
+		<entry name="struct_tel_cross_hex_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_tel_cross_hex_macro"/>
+		<entry name="struct_spl_base_adapter_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_spl_base_adapter_macro"/>
+		<entry name="struct_par_base_adapter_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_par_base_adapter_macro"/>	
+		<!--Production-->
+		<entry name="prod_gen_energycells_fusion_macro" value="extensions\re_expansion_stations\assets\structures\production\macros\prod_gen_energycells_fusion_macro"/>	
+		<entry name="prod_gen_energycells_small_macro" value="extensions\re_expansion_stations\assets\structures\production\macros\prod_gen_energycells_small_macro"/>
+		<entry name="prod_ter_energycells_medium_macro" value="extensions\re_expansion_stations\assets\structures\production\macros\prod_ter_energycells_medium_macro"/>
+	</add>
+</diff>

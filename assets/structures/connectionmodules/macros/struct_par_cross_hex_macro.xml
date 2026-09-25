@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="struct_par_cross_hex_macro" class="connectionmodule">
+    <component ref="struct_par_cross_hex" />
+    <properties>
+      <identification name="{4837253,13000}" shortname="{4837253,13000}" makerrace="paranid" description="{4837253,13001}" />
+      <build>
+        <sets>
+          <set ref="factory" />	  
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <hull max="120000" />
+    </properties>
+  </macro>
+</macros>

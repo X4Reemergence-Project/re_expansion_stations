@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/index">
+	<!--MODULES-->
+		<!--Connector-->
+		<entry name="struct_arg_cross_y" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_arg_cross_y"/>
+		<entry name="struct_tel_cross_y" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_tel_cross_y"/>
+		<entry name="struct_spl_cross_classic" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_spl_cross_classic"/>
+		<entry name="struct_bor_cross_classic" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_bor_cross_classic"/>
+		<entry name="struct_ter_arc" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_arc"/>
+		<entry name="struct_ter_cross_x" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_cross_x"/>
+		<entry name="struct_ter_cross_classic" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_cross_classic"/>
+		<entry name="struct_ter_cross_hex" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_cross_hex"/>
+		<entry name="struct_ter_cross_t" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_cross_t"/>
+		<entry name="struct_ter_cross_t_vertical" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_cross_t_vertical"/>
+		<entry name="struct_ter_cross_t_vertical_02" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_cross_t_vertical_02"/>
+		<entry name="struct_ter_base_04" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_base_04"/>
+		<entry name="struct_par_cross_hex" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_par_cross_hex"/>		
+		<entry name="struct_bor_arc" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_bor_arc"/>
+		<entry name="struct_tel_cross_hex" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_tel_cross_hex"/>	
+		<entry name="struct_spl_base_adapter" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_spl_base_adapter"/>	
+		<entry name="struct_par_base_adapter" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_par_base_adapter"/>
+		<!--Production-->
+		<entry name="prod_gen_energycells_fusion" value="extensions\re_expansion_stations\assets\structures\production\prod_gen_energycells_fusion"/>		
+		<entry name="prod_gen_energycells_small" value="extensions\re_expansion_stations\assets\structures\production\prod_gen_energycells_small"/>
+		<entry name="prod_ter_energycells_medium" value="extensions\re_expansion_stations\assets\structures\production\prod_ter_energycells_medium"/>
+	</add>
+</diff>

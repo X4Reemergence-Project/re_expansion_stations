@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-22 00:15:16 from Blender-->
+<components>
+  <component name="prod_gen_energycells_fusion" class="production">
+		<source geometry="\extensions\re_expansion_stations\assets\structures\production\prod_gen_energycells_fusion_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="center_glow" shadow="0" r="0" g="169" b="255" intensity="1.325167" specularintensity="1" range="300" shadowrange="300" lighteffect="1" lenseffect="none" trigger="0" />
+          <spot name="ego_spot" angle="150.0" gradientindex="1" shadow="1" r="0" g="169" b="255" intensity="1.129794" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-5.366647e-06" y="0" z="123.3066" />
+              <quaternion qx="-0.7071068" qy="0" qz="0" qw="-0.7071068" />
+            </offset>
+          </spot>
+          <spot name="ego_spot001" angle="150.0" gradientindex="1" shadow="1" r="0" g="169" b="255" intensity="1.129794" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-5.366647e-06" y="0" z="-123.307" />
+              <quaternion qx="-1.152023e-07" qy="-0.7071068" qz="0.7071068" qw="-1.152023e-07" />
+            </offset>
+          </spot>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="production" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="-69.13416" y="46.39399" z="180.1189" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordetail_s_main" tags="part ">
+        <parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_alphatexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="98.40154" y="42.75751" z="194.5117" />
+              <center x="1.335144e-05" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetaill_m_poslights" tags="detail_m forceoutline nocollision part animation textureanimation ">
+        <animations>
+          <animation name="loop" start="0" end="100" />
+        </animations>
+        <parts>
+          <part name="detaill_m_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_gradientcolour_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="100.4199" y="50.49868" z="197.073" />
+              <center x="-1.525879e-05" y="0.02958679" z="0" />
+            </size>
+            <size_raw>
+              <max x="100.4199" y="50.49868" z="197.073" />
+              <center x="-1.335144e-05" y="0.02958679" z="0" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="100" value="-1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="100.0042" y="50.00002" z="200" />
+              <center x="-5.722046e-06" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_ring_outer" tags="animation forceoutline nocollision part ">
+        <animations>
+          <animation name="loop" start="1" end="240" />
+        </animations>
+        <parts>
+          <part name="part_ring_outer">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_fx_01" />
+                  <material id="3" ref="p2generic.gen_p2_alphatexture_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_fx_01" />
+                  <material id="3" ref="p2generic.gen_p2_alphatexture_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_fx_01" />
+                  <material id="3" ref="p2generic.gen_p2_alphatexture_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="149.0299" y="12.53263" z="137.2098" />
+              <center x="0" y="-9.536743e-06" z="0" />
+            </size>
+            <size_raw>
+              <max x="149.0299" y="12.53263" z="137.2098" />
+              <center x="-3.814697e-06" y="-9.059906e-06" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_ring_inner" tags="animation forceoutline nocollision part " parent="part_ring_outer">
+        <animations>
+          <animation name="loop" start="1" end="240" />
+        </animations>
+        <parts>
+          <part name="part_ring_inner">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_alphatexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_alphatexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_alphatexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="129.0592" y="39.76698" z="122.5703" />
+              <center x="0.008300781" y="-7.629395e-06" z="0" />
+            </size>
+            <size_raw>
+              <max x="129.0592" y="39.76698" z="122.5703" />
+              <center x="0.008300781" y="-7.629395e-06" z="0" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_core" tags="animation part " parent="part_ring_inner">
+        <animations>
+          <animation name="loop" start="1" end="240" />
+        </animations>
+        <parts>
+          <part name="part_core">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2multimat.p2_multimat_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2multimat.p2_multimat_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2multimat.p2_multimat_01" />
+                  <material id="2" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2multimat.p2_multimat_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="113.5033" y="102.5648" z="102.5648" />
+              <center x="-1.525879e-05" y="-0.06956482" z="0.003814697" />
+            </size>
+            <size_raw>
+              <max x="113.5033" y="102.5648" z="102.5648" />
+              <center x="-2.098083e-05" y="-0.06956482" z="0.003814697" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionSnap001" tags="snap ">
+        <offset>
+          <position x="-8.742279e-06" y="0" z="200" />
+        </offset>
+      </connection>
+      <connection name="ConnectionSnap002" tags="snap ">
+        <offset>
+          <position x="-8.742279e-06" y="0" z="-200" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-1.629207e-07" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>
