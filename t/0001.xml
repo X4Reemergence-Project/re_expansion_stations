@@ -2,12 +2,7 @@
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xmllib/diff.xsd">
 	<add sel="/language">	
 		<!--MODULES-->
-		<page id="4837253" title="Station Modules" descr="Names\Descriptions" voice="yes">
-			<t id="1">Small</t>	
-			<t id="2">Medium</t>	
-			<t id="3">Large</t>	
-			<t id="4">Fusion</t>	
-			<t id="5">M/AM</t>			
+		<page id="4837253" title="Station Modules" descr="Names\Descriptions" voice="yes">	
 			<t id="10000">(Generic)Solar Energy - Small</t>
 			<t id="10001">{20006,102}(No information available)</t>
 			<t id="10010">(Generic)Solar Energy - Medium</t>

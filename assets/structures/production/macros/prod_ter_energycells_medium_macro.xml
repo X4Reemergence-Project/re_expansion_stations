@@ -4,7 +4,7 @@
   <macro name="prod_ter_energycells_medium_macro" class="production">
     <component ref="prod_ter_energycells_medium" />
     <properties>
-      <identification name="{4837253,10010}" shortname="{4837253,10010}" makerrace="terran" description="{4837253,10011}" />
+      <identification name="{4837253,10010}" shortname="{4837253,10010}" description="{4837253,10011}" />
       <build>
         <sets>
           <set ref="factory" />
@@ -15,7 +15,7 @@
       <hull max="217000" />
       <secrecy level="2" />
       <production wares="energycells">
-        <queue ware="energycells" method="ecmedium" />
+        <queue ware="energycells" />
       </production>
       <workforce max="90" />
     </properties>
