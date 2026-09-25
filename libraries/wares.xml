@@ -355,26 +355,8 @@
 		<method id="mamcore" name="M/AM Power"/>	
 	</add>
 <!-- PRODUCTION WARES -->
-	<add sel="/wares/ware[@id='energycells']">
-		<production time="60" amount="50" method="ecsmall" name="{4837253,1}">
-			<effects>
-				<effect type="sunlight" product="1" />
-				<effect type="work" product="0.43" />
-			</effects>
-		</production>
-		<production time="60" amount="175" method="ecmedium" name="{4837253,2}">
-			<effects>
-				<effect type="sunlight" product="1" />
-				<effect type="work" product="0.43" />
-			</effects>
-		</production>	
-		<production time="60" amount="350" method="eclarge" name="{4837253,3}">
-			<effects>
-				<effect type="sunlight" product="1" />
-				<effect type="work" product="0.43" />
-			</effects>
-		</production>		
-		<production time="120" amount="1750" method="fusioncore" name="{4837253,4}">
+	<add sel="/wares/ware[@id='energycells']">	
+		<production time="120" amount="1750" method="fusioncore" name="fusioncore">
 			<primary>
 				<ware ware="graphene" amount="30"/>
 				<ware ware="hydrogen" amount="255"/>
@@ -384,7 +366,7 @@
 				<effect type="work" product="1.15" />
 			</effects>
 		</production>
-		<production time="120" amount="1750" method="mamcore" name="{4837253,5}">
+		<production time="120" amount="1750" method="mamcore" name="mamcore">
 			<primary>
 				<ware ware="hydrogen" amount="450"/>		  
 			</primary>        
