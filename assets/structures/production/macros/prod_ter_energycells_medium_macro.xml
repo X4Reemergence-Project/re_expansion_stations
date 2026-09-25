@@ -15,7 +15,7 @@
       <hull max="217000" />
       <secrecy level="2" />
       <production wares="energycells">
-        <queue ware="energycells" />
+        <queue ware="energycells" method="ecmedium" />
       </production>
       <workforce max="90" />
     </properties>
