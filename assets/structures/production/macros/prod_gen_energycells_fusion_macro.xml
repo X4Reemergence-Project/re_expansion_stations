@@ -4,7 +4,7 @@
   <macro name="prod_gen_energycells_fusion_macro" class="production">
     <component ref="prod_gen_energycells_fusion" />
     <properties>
-      <identification name="{4837253,10020}" shortname="{4837253,10020}" description="{4837253,10021}" />
+      <identification name="{4837253,10040}" shortname="{4837253,10040}" description="{4837253,10041}" />
       <build>
         <sets>
           <set ref="factory" />

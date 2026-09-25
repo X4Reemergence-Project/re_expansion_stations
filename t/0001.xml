@@ -48,5 +48,7 @@
 		</page>		
 	</add>
 	<replace sel="/language/page[@id='20104']/t[@id='15201']/text()[1]">Solar Energy - Small</replace>
+	<replace sel="/language/page[@id='20104']/t[@id='15203']/text()[1]">Solar Energy - Small</replace>
 	<replace sel="/language/page[@id='20104']/t[@id='10801']/text()[1]">Solar Energy - Medium</replace>	
+	<replace sel="/language/page[@id='20104']/t[@id='10803']/text()[1]">Solar Energy - Medium</replace>	
 </diff>  

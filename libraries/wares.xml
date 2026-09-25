@@ -323,7 +323,7 @@
   				<owner faction="terran" />
    				<owner faction="pioneers" />		
 		</ware>
- 		<ware id="module_prod_gen_energycells_fusion" name="{4837253,10020}" description="{4837253,10021}" transport="container" volume="1" tags="module">
+ 		<ware id="module_prod_gen_energycells_fusion" name="{4837253,10040}" description="{4837253,10041}" transport="container" volume="1" tags="module">
 			<price min="14138190" average="16633170" max="19128135" />
 			<production time="900" amount="1" method="default" name="{20206,101}">
 				<primary>
