@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<diff>
+	<add sel="/groups/group[@name='conn_arg']">
+		<select macro="struct_arg_cross_y_macro"/>
+	</add>
+	<add sel="/groups/group[@name='conn_bor']">
+		<select macro="struct_bor_arc_macro"/>
+		<select macro="struct_bor_cross_classic_macro"/>
+	</add>
+	<add sel="/groups/group[@name='conn_par']">
+		<select macro="struct_par_cross_hex_macro"/>
+	</add>
+	<add sel="/groups/group[@name='conn_spl']">
+		<select macro="struct_spl_cross_classic_macro"/>
+	</add>
+	<add sel="/groups/group[@name='conn_tel']">
+		<select macro="struct_tel_cross_hex_macro"/>
+		<select macro="struct_tel_cross_y_macro"/>
+	</add>
+	<add sel="/groups/group[@name='conn_ter']">
+		<select macro="struct_ter_arc_macro"/>
+		<select macro="struct_ter_base_04_macro"/>
+		<select macro="struct_ter_cross_classic_macro"/>
+		<select macro="struct_ter_cross_hex_macro"/>
+		<select macro="struct_ter_cross_t_macro"/>
+		<select macro="struct_ter_cross_t_vertical_macro"/>
+		<select macro="struct_ter_cross_t_vertical_02_macro"/>
+		<select macro="struct_ter_cross_x_macro"/>
+	</add>
+	<add sel="/groups/group[@name='prod_ter_energycells']/select" type="@weight">80</add>
+	<add sel="/groups/group[@name='prod_ter_energycells']">
+		<select macro="prod_ter_energycells_medium_macro" weight="20"/>
+	</add>	
+	<add sel="/groups/group[@name='prod_gen_energycells']/select" type="@weight">85</add>
+	<add sel="/groups/group[@name='prod_gen_energycells']">
+		<select macro="prod_gen_energycells_small_macro" weight="10"/>
+		<select macro="prod_gen_energycells_fusion_macro" weight="5"/>		
+	</add>	
+</diff>
