@@ -218,6 +218,66 @@
 			<owner faction="terran" />
 			<owner faction="yaki" />
 		</ware>
+		<ware id="module_struct_ter_cross_x_02" name="{4837253,16130}" description="{4837253,16131}" transport="container" volume="1" tags="module">
+			<price min="110087" average="129515" max="148942" />
+			<production time="30" amount="1" method="default" name="{20206,901}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="1" />
+					<ware ware="energycells" amount="5" />
+					<ware ware="siliconcarbide" amount="1" />
+				</primary>
+			</production>
+			<component ref="struct_ter_cross_x_02_macro" />
+			<restriction licence="station_gen_basic" />
+			<owner faction="pioneers" />
+			<owner faction="terran" />
+			<owner faction="yaki" />
+		</ware>
+		<ware id="module_struct_ter_cross_y_01" name="{4837253,16100}" description="{4837253,16101}" transport="container" volume="1" tags="module">
+			<price min="110087" average="129515" max="148942" />
+			<production time="30" amount="1" method="default" name="{20206,901}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="1" />
+					<ware ware="energycells" amount="5" />
+					<ware ware="siliconcarbide" amount="1" />
+				</primary>
+			</production>
+			<component ref="struct_ter_cross_y_01_macro" />
+			<restriction licence="station_gen_basic" />
+			<owner faction="pioneers" />
+			<owner faction="terran" />
+			<owner faction="yaki" />
+		</ware>
+		<ware id="module_struct_ter_cross_y_02" name="{4837253,16110}" description="{4837253,16111}" transport="container" volume="1" tags="module">
+			<price min="110087" average="129515" max="148942" />
+			<production time="30" amount="1" method="default" name="{20206,901}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="1" />
+					<ware ware="energycells" amount="5" />
+					<ware ware="siliconcarbide" amount="1" />
+				</primary>
+			</production>
+			<component ref="struct_ter_cross_y_02_macro" />
+			<restriction licence="station_gen_basic" />
+			<owner faction="pioneers" />
+			<owner faction="terran" />
+			<owner faction="yaki" />
+		</ware>
+		<ware id="module_struct_ter_cross_y_03" name="{4837253,16120}" description="{4837253,16121}" transport="container" volume="1" tags="module">
+			<price min="110087" average="129515" max="148942" />
+			<production time="30" amount="1" method="default" name="{20206,901}">
+				<primary>
+					<ware ware="computronicsubstrate" amount="1" />
+					<ware ware="energycells" amount="5" />
+					<ware ware="siliconcarbide" amount="1" />
+				</primary>
+			</production>
+			<component ref="struct_ter_cross_y_03_macro" />
+			<restriction licence="station_gen_basic" />
+			<owner faction="pioneers" />
+			<owner faction="terran" />
+			<owner faction="yaki" />
+		</ware>
 		<ware id="module_struct_ter_cross_t" name="{4837253,16050}" description="{4837253,16051}" transport="container" volume="1" tags="module">
 			<price min="110087" average="129515" max="148942" />
 			<production time="30" amount="1" method="default" name="{20206,901}">
@@ -348,6 +408,168 @@
   				<owner faction="split" />	
   				<owner faction="freesplit" />		
 		</ware>
+<!-- Docks -->
+  <ware id="module_gen_build_xl_alt" name="{20104,60401}" description="{20104,60402}" transport="container" volume="1" tags="module">
+    <price min="183235129" average="215570740" max="247906351" />
+    <production time="477" amount="1" method="default" name="{20206,101}">
+      <primary>
+        <ware ware="claytronics" amount="3243" />
+        <ware ware="energycells" amount="4866" />
+      </primary>
+    </production>
+    <research time="10">
+      <research>
+        <ware ware="research_module_build" />
+      </research>
+    </research>
+    <component ref="buildmodule_gen_ships_xl_alt_macro" />
+    <restriction licence="station_equip_lxl" />
+    <owner faction="antigone" />
+    <owner faction="argon" />
+    <owner faction="holyorder" />
+    <owner faction="paranid" />
+    <owner faction="teladi" />
+    <owner faction="trinity" />
+    <owner faction="split" />
+    <owner faction="freesplit" />
+  </ware>
+  <ware id="module_gen_build_l_alt" name="{20104,60301}" description="{20104,60302}" transport="container" volume="1" tags="module">
+    <price min="180147181" average="211937860" max="243728539" />
+    <production time="365" amount="1" method="default" name="{20206,101}">
+      <primary>
+        <ware ware="claytronics" amount="2486" />
+        <ware ware="energycells" amount="3731" />
+      </primary>
+    </production>
+    <research time="10">
+      <research>
+        <ware ware="research_module_build" />
+      </research>
+    </research>
+    <component ref="buildmodule_gen_ships_l_alt_macro" />
+    <restriction licence="station_equip_lxl" />
+    <owner faction="antigone" />
+    <owner faction="argon" />
+    <owner faction="holyorder" />
+    <owner faction="paranid" />
+    <owner faction="teladi" />
+    <owner faction="trinity" />
+    <owner faction="split" />
+    <owner faction="freesplit" />
+	</ware>
+    <ware id="module_bor_build_xl_alt" name="{20104,62701}" description="{20104,62702}" transport="container" volume="1" tags="module">
+      <price min="201558642" average="237127814" max="272696986" />
+      <production time="477" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="claytronics" amount="2260" />
+          <ware ware="energycells" amount="18526" />
+          <ware ware="water" amount="16778" />
+        </primary>
+      </production>
+      <research time="10">
+        <research>
+          <ware ware="research_module_build" />
+        </research>
+      </research>
+      <component ref="buildmodule_bor_ships_xl_alt_macro" />
+      <restriction licence="station_equip_lxl" />
+      <owner faction="boron" />
+    </ware>
+    <ware id="module_ter_build_xl_alt" name="{20104,62101}" description="{20104,62102}" transport="container" volume="1" tags="module">
+      <price min="227108570" average="267186553" max="307264536" />
+      <production time="474" amount="1" method="default" name="{20206,901}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="658" />
+          <ware ware="energycells" amount="4866" />
+          <ware ware="siliconcarbide" amount="1354" />
+        </primary>
+      </production>
+      <research time="10">
+        <research>
+          <ware ware="research_module_build" />
+        </research>
+      </research>
+      <component ref="buildmodule_ter_ships_xl_alt_macro" />
+      <restriction licence="station_equip_lxl" />
+      <owner faction="pioneers" />
+      <owner faction="terran" />
+    </ware>
+    <ware id="module_ter_build_l_alt" name="{20104,62001}" description="{20104,62002}" transport="container" volume="1" tags="module">
+      <price min="223501475" average="262942912" max="302384349" />
+      <production time="365" amount="1" method="default" name="{20206,901}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="505" />
+          <ware ware="energycells" amount="3731" />
+          <ware ware="siliconcarbide" amount="1039" />
+        </primary>
+      </production>
+      <research time="10">
+        <research>
+          <ware ware="research_module_build" />
+        </research>
+      </research>
+      <component ref="buildmodule_ter_ships_l_alt_macro" />
+      <restriction licence="station_equip_lxl" />
+      <owner faction="pioneers" />
+      <owner faction="terran" />
+    </ware>
+	<ware id="module_ter_pier_05" name="{20104,74901}" description="{20104,74902}" transport="container" volume="1" tags="module">
+        <price min="1835686" average="2159631" max="2483576" />
+        <production time="120" amount="1" method="default" name="{20206,901}">
+            <primary>
+                <ware ware="computronicsubstrate" amount="85" />
+                <ware ware="energycells" amount="625" />
+                <ware ware="siliconcarbide" amount="174" />
+            </primary>
+        </production>
+        <research time="10">
+            <research>
+                <ware ware="research_module_dock" />
+            </research>
+        </research>
+        <component ref="pier_ter_harbor_05_macro" amount="1" />
+        <restriction licence="station_gen_basic" />
+        <owner faction="terran" />
+        <owner faction="pioneers" />
+    </ware>
+    <ware id="module_dockarea_ter_m8" name="{20104,73301}" description="{20104,73302}" transport="container" volume="1" tags="module">
+      <price min="597168" average="702553" max="807935" />
+      <production time="120" amount="1" method="default" name="{20206,901}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="33" />
+          <ware ware="energycells" amount="243" />
+          <ware ware="siliconcarbide" amount="69" />
+        </primary>
+      </production>
+      <research time="10">
+        <research>
+          <ware ware="research_module_dock" />
+        </research>
+      </research>
+      <component ref="dockarea_ter_m8_macro" />
+      <restriction licence="station_gen_basic" />
+      <owner faction="pioneers" />
+      <owner faction="terran" />
+    </ware>
+    <ware id="module_dockarea_ter_s3" name="{4837253,16090}" description="{4837253,16091}" transport="container" volume="1" tags="module">
+      <price min="59716" average="70255" max="80793" />
+      <production time="30" amount="1" method="default" name="{20206,901}">
+        <primary>
+          <ware ware="computronicsubstrate" amount="3" />
+          <ware ware="energycells" amount="24" />
+          <ware ware="siliconcarbide" amount="7" />
+        </primary>
+      </production>
+      <research time="10">
+        <research>
+          <ware ware="research_module_dock" />
+        </research>
+      </research>
+      <component ref="dockarea_ter_s3_macro" />
+      <restriction licence="station_gen_basic" />
+      <owner faction="pioneers" />
+      <owner faction="terran" />
+    </ware>
 	</add>
 <!-- PRODUCTION METHODS -->
 	<add sel="/wares/production">

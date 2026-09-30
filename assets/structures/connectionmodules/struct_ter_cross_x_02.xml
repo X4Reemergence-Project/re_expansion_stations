@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-29 13:19:20 from Blender-->
+<components>
+  <component name="struct_ter_cross_x_02" class="connectionmodule">
+		<source geometry="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_ter_cross_x_02_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="XU Omni_01001" shadow="0" r="255" g="209" b="186" intensity="0.2879112" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="69.618" z="153.702" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_013" shadow="0" r="177" g="226" b="255" intensity="1.20234" specularintensity="1" range="60" shadowrange="60" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-140" y="0" z="140" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_013_copy" shadow="0" r="177" g="226" b="255" intensity="1.20234" specularintensity="1" range="60" shadowrange="60" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-140" y="0" z="-140" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_014" shadow="0" r="177" g="226" b="255" intensity="1.20234" specularintensity="1" range="60" shadowrange="60" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="140" y="0" z="-140" />
+              <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_014_copy" shadow="0" r="177" g="226" b="255" intensity="1.20234" specularintensity="1" range="60" shadowrange="60" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="140" y="0" z="140" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_01_copy001" shadow="0" r="255" g="209" b="186" intensity="0.2879112" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-163.23" y="69.618" z="0" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_02001" shadow="0" r="255" g="209" b="186" intensity="0.2879112" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="69.618" z="-153.5972" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_02_copy001" shadow="0" r="255" g="209" b="186" intensity="0.2879112" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="144.069" y="69.618" z="1.12492" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_06" shadow="0" r="255" g="209" b="186" intensity="0.2879112" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-69.61831" z="153.702" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_06_copy" shadow="0" r="255" g="209" b="186" intensity="0.2879112" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-163.23" y="-69.61831" z="0" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_07" shadow="0" r="255" g="209" b="186" intensity="0.2879112" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-69.61828" z="-153.5972" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_07_copy" shadow="0" r="255" g="209" b="186" intensity="0.2879112" specularintensity="1" range="120" shadowrange="120" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="144" y="-69.61828" z="0" />
+              <quaternion qx="0" qy="0" qz="-0.7071068" qw="-0.7071068" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_08" shadow="0" r="255" g="0" b="0" intensity="1.061743" specularintensity="1" range="40" shadowrange="40" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-60" z="0" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_09" shadow="0" r="173" g="204" b="255" intensity="0.6059463" specularintensity="0" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-64.10437" z="68.62723" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_09_copy" shadow="0" r="173" g="204" b="255" intensity="0.6059463" specularintensity="0" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-78.1554" y="-64.10437" z="0" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_10" shadow="0" r="173" g="204" b="255" intensity="0.6059463" specularintensity="0" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-64.10437" z="-69.72237" />
+            </offset>
+          </omni>
+          <omni name="XU Omni_10_copy" shadow="0" r="173" g="204" b="255" intensity="0.6059463" specularintensity="0" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="60.1942" y="-64.10437" z="0" />
+            </offset>
+          </omni>
+          <spot name="ego_spot" angle="90.0" gradientindex="1" shadow="1" r="177" g="226" b="255" intensity="0.9063696" specularintensity="1" range="160" shadowrange="160" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="76.00212" y="51.93607" z="76.00212" />
+              <quaternion qx="-0.3649716" qy="0.1150751" qz="0.8811196" qw="-0.2778159" />
+            </offset>
+          </spot>
+          <spot name="ego_spot001" angle="90.0" gradientindex="1" shadow="1" r="177" g="226" b="255" intensity="0.9063696" specularintensity="1" range="160" shadowrange="160" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-76.00212" y="51.93607" z="76.00212" />
+              <quaternion qx="-0.8811196" qy="0.2778159" qz="0.3649716" qw="-0.1150751" />
+            </offset>
+          </spot>
+          <spot name="ego_spot002" angle="90.0" gradientindex="1" shadow="1" r="177" g="226" b="255" intensity="0.9063696" specularintensity="1" range="160" shadowrange="160" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-76.00212" y="51.93607" z="-76.00212" />
+              <quaternion qx="0.8811194" qy="-0.2778159" qz="0.3649718" qw="-0.1150753" />
+            </offset>
+          </spot>
+          <spot name="ego_spot003" angle="90.0" gradientindex="1" shadow="1" r="177" g="226" b="255" intensity="0.9063696" specularintensity="1" range="160" shadowrange="160" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="76.00212" y="51.93607" z="-76.00212" />
+              <quaternion qx="0.3649716" qy="-0.1150751" qz="0.8811196" qw="-0.2778159" />
+            </offset>
+          </spot>
+          <arealight name="XU AreaLight_01" areax="1e-05" areay="1e-05" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-51.76585" z="-159.703" />
+              <quaternion qx="0.6123725" qy="-0.3535535" qz="0.6123724" qw="-0.3535533" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight_01_copy" areax="1e-05" areay="1e-05" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-159.703" y="-51.76585" z="0" />
+              <quaternion qx="-0.6830128" qy="0.6830128" qz="-0.183012" qw="-0.1830129" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight_02" areax="1e-05" areay="1e-05" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-51.7659" z="159.7027" />
+              <quaternion qx="-0.6123722" qy="0.3535534" qz="0.6123727" qw="-0.3535535" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight_02_copy" areax="1e-05" areay="1e-05" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="159.7027" y="-51.7659" z="0" />
+              <quaternion qx="-0.1830129" qy="-0.1830129" qz="0.6830127" qw="-0.6830126" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight_03001" areax="1e-05" areay="1e-05" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="51.76588" z="-159.7028" />
+              <quaternion qx="0.3535533" qy="0.6123722" qz="-0.3535535" qw="-0.6123726" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight_03_copy001" areax="1e-05" areay="1e-05" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-159.7028" y="51.76588" z="0" />
+              <quaternion qx="-0.6830129" qy="-0.6830129" qz="0.1830122" qw="-0.1830117" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight_04001" areax="1e-05" areay="1e-05" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="51.76587" z="159.703" />
+              <quaternion qx="-0.3535537" qy="-0.6123727" qz="-0.3535532" qw="-0.6123722" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight_04_copy001" areax="1e-05" areay="1e-05" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="159.703" y="51.76587" z="0" />
+              <quaternion qx="-0.183012" qy="0.183012" qz="0.6830128" qw="-0.683013" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="connectionmodule" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="0" y="49.99931" z="180.5164" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer" tags="mission ">
+        <offset>
+          <position x="0" y="49.99931" z="-180.5164" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="animation detail_m forceoutline nocollision part textureanimation ">
+        <animations>
+          <animation name="loop" start="0" end="100" />
+        </animations>
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="161.5633" y="56.93604" z="161.5633" />
+              <center x="0" y="0" z="0" />
+            </size>
+            <size_raw>
+              <max x="161.5633" y="56.93604" z="161.5633" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="100" value="-1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_s_main" tags="detail_s forceoutline nocollision part ">
+        <parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_alphatexture_b" />
+                  <material id="2" ref="generic.generic_p1_alphatexture" />
+                  <material id="3" ref="generic.generic_p1_hulltexture" />
+                  <material id="4" ref="p1effects.p1_lightcone_soft" />
+                  <material id="5" ref="generic.generic_p1_fx" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="164.0545" y="56.8825" z="164.0545" />
+              <center x="0" y="1.884586" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_decals" tags="detail_xl forceoutline nocollision part ">
+        <parts>
+          <part name="fx_decals">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_p1_decal_01_ter" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="179.4276" y="123.9715" z="179.4276" />
+              <center x="0" y="73.87669" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="p1terran.ter_p1_fx_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="p1terran.ter_p1_fx_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="p1terran.ter_p1_fx_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1terran.ter_p1_hullpattern_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="199.9997" y="124.9599" z="199.9997" />
+              <center x="-3.814697e-06" y="74.96062" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="snap001" tags="snap ">
+        <offset>
+          <position x="-200" y="0" z="0" />
+          <quaternion qx="0" qy="0.7071069" qz="0" qw="-0.7071066" />
+        </offset>
+      </connection>
+      <connection name="snap002" tags="snap ">
+        <offset>
+          <position x="0" y="0" z="200" />
+          <quaternion qx="0" qy="2.384186e-07" qz="0" qw="-1" />
+        </offset>
+      </connection>
+      <connection name="snap003" tags="snap ">
+        <offset>
+          <position x="3.051758e-05" y="0" z="-200" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-3.139165e-07" />
+        </offset>
+      </connection>
+      <connection name="snap004" tags="snap ">
+        <offset>
+          <position x="200" y="0" z="0" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071067" />
+        </offset>
+      </connection>
+      <connection name="snap005" tags="snap ">
+        <offset>
+          <position x="0" y="199.9205" z="-7.623322e-06" />
+          <quaternion qx="0.7071069" qy="0" qz="0" qw="-0.7071066" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

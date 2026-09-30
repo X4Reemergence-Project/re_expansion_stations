@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-09-27 23:00:11 from Blender-->
+<components>
+  <component name="dockarea_ter_s3" class="dockarea">
+		<source geometry="\extensions\re_expansion_stations\assets\structures\dock\dockarea_ter_s3_data" />
+    <layers>
+      <layer>
+        <lights>
+          <box name="ego_linear" shadow="1" r="178" g="227" b="255" intensity="2.724182" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
+            <size x="180" y="180" z="180" />
+          </box>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="dockarea" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="con_dock_xs_01" group="group_hatch_01 " tags="dock_xs ">
+        <offset>
+          <position x="-11.89371" y="-21.55182" z="37.50357" />
+          <quaternion qx="0.7071069" qy="0" qz="0" qw="-0.7071066" />
+        </offset>
+      </connection>
+      <connection name="Con_exclusionzone01" tags="exclusionzone ship_s ">
+        <offset>
+          <position x="0" y="-1.203896" z="70.40833" />
+        </offset>
+      </connection>
+      <connection name="con_shipstorage_s_01" tags="dockingbay ">
+        <offset>
+          <position x="-7.906021" y="358.7495" z="14.32621" />
+        </offset>
+      </connection>
+      <connection name="con_shipstorage_xs_01" tags="dockingbay ">
+        <offset>
+          <position x="-7.906021" y="358.7495" z="37.58054" />
+        </offset>
+      </connection>
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="-71.51814" y="57.93755" z="64.33852" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer" tags="mission ">
+        <offset>
+          <position x="67.45503" y="57.93758" z="61.78993" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFor_dockingbay_arg_s_01_macro1" group="spad1" tags="dockingbay ">
+        <offset>
+          <position x="40" y="-19.97276" z="4.722434" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFor_dockingbay_arg_s_01_macro2" group="spad2" tags="dockingbay ">
+        <offset>
+          <position x="0" y="-19.97276" z="4.722434" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFor_dockingbay_arg_s_01_macro3" group="spad3" tags="dockingbay ">
+        <offset>
+          <position x="-40" y="-19.97276" z="4.722434" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_dockingpos_01" tags="animation detail_xs forceoutline nocollision part textureanimation ">
+        <offset>
+          <position x="6.103516e-05" y="-15" z="105.403" />
+        </offset>
+        <animations>
+          <animation name="loop" start="1" end="91" />
+        </animations>
+        <parts>
+          <part name="anim_dockingpos_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2ads.ads_p2_billboard_01_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="40.46558" y="26.43728" z="19.59413" />
+              <center x="-3.433228e-05" y="-3.814697e-06" z="-0.0001144409" />
+            </size>
+            <size_raw>
+              <max x="40.46558" y="26.43728" z="19.59413" />
+              <center x="-3.33786e-05" y="-3.814697e-06" z="-0.0001144409" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="3">
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="91" value="0" />
+                </uv_property>
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="91" value="2" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanim_forcefieldfx" tags="animation detail_s fx inside noshadowcaster part textureanimation triggerpart ">
+        <offset>
+          <position x="-1.695421e-06" y="-1.203899" z="29.25958" />
+        </offset>
+        <animations>
+          <animation name="loop" start="0" end="2000" />
+        </animations>
+        <parts>
+          <part name="anim_forcefieldfx">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.fx_forcefield_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="88.87831" y="26.25239" z="0.02035904" />
+              <center x="1.695421e-06" y="-3.814697e-06" z="-0.006784439" />
+            </size>
+            <size_raw>
+              <max x="88.87831" y="26.25239" z="0.02035917" />
+              <center x="-5.722046e-06" y="-3.814697e-06" z="-0.006784007" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="3">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="2000" value="-1" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation mapchannel="2">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="2000" value="-1" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="2000" value="360" />
+                </uv_property>
+              </uv_animation>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="2000" value="1" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="2000" value="-1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanim_hatch_01" tags="anim_dockdoor animation detail_xl forceoutline nocollision part ">
+        <offset>
+          <position x="-11.89352" y="-20.05182" z="37.5033" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071067" />
+        </offset>
+        <animations>
+          <animation name="dockingbay_closed" start="0" end="1" />
+          <animation name="dockingbay_opening" start="1" end="61" />
+          <animation name="dockingbay_open" start="61" end="62" />
+          <animation name="dockingbay_closing" start="62" end="122" />
+        </animations>
+        <parts>
+          <part name="anim_hatch_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.952011" y="0.07881927" z="1.5" />
+              <center x="-1.452011" y="0.0359993" z="0" />
+            </size>
+            <size_raw>
+              <max x="1.5" y="0.04282033" z="1.5" />
+              <center x="0" y="-1.862645e-07" z="-4.768372e-07" />
+            </size_raw>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="animation detail_m forceoutline nocollision part textureanimation ">
+        <animations>
+          <animation name="loop" start="0" end="100" />
+        </animations>
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1effects.p1_gradient_colour" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="100.138" y="50.47129" z="112.5679" />
+              <center x="0" y="-0.1185799" z="44.97496" />
+            </size>
+            <size_raw>
+              <max x="100.138" y="50.47129" z="112.5679" />
+              <center x="1.907349e-06" y="-0.1185818" z="44.97496" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="100" value="-1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_m_main" tags="detail_m forceoutline nocollision part ">
+        <parts>
+          <part name="detail_m_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_alphatexture" />
+                  <material id="2" ref="generic.generic_p1_hulltexture" />
+                  <material id="3" ref="p1paint.paint_p1_decal_01_ter" />
+                  <material id="4" ref="generic.generic_p1_alphatexture_b" />
+                  <material id="5" ref="p1effects.p1_lightcone_soft" />
+                  <material id="6" ref="generic.generic_p1_fx" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="113.7893" y="69.96481" z="111.2573" />
+              <center x="0" y="0" z="44.30653" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_dockingpos_01" tags="detail_xs forceoutline nocollision part ">
+        <offset>
+          <position x="-4.577637e-05" y="-15" z="105.403" />
+        </offset>
+        <parts>
+          <part name="fx_dockingpos_01">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2ads.ads_p2_billboard_01_a" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="59.40508" y="3.33017" z="19.53859" />
+              <center x="8.296967e-05" y="-1.990795e-05" z="-0.0001468658" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="p1terran.ter_p1_fx_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="p1terran.ter_p1_fx_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                  <material id="2" ref="p1terran.ter_p1_hullpattern_01" />
+                  <material id="3" ref="p1terran.ter_p1_fx_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p1terran.ter_p1_hullpattern_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="117.4823" y="57.93765" z="88.79502" />
+              <center x="-1.907349e-06" y="1.907349e-06" z="18.79489" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFortriggerpart_slowzone" tags="collisiononly inside noshadowcaster part triggerpart ">
+        <offset>
+          <position x="0" y="0" z="80" />
+        </offset>
+        <parts>
+          <part name="triggerpart_slowzone">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hullpattern_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="100" y="31.75863" z="100" />
+              <center x="0" y="1.907349e-06" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForwalkarea_boundary" tags="collisiononly detail_xs noshadowcaster part platformcollision ">
+        <offset>
+          <position x="59.00229" y="-18.97276" z="-16.77756" />
+        </offset>
+        <parts>
+          <part name="walkarea_boundary">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="generic.generic_p1_hulltexture" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="60.00229" y="2" z="22.5" />
+              <center x="-59.00229" y="1" z="21.5" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="snap" tags="snap ">
+        <offset>
+          <position x="0" y="0" z="-70" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+      <connection name="spad1_todock" group="spad1" tags="todock ">
+        <offset>
+          <position x="40" y="-15" z="124.8088" />
+        </offset>
+      </connection>
+      <connection name="spad2_todock" group="spad2" tags="todock ">
+        <offset>
+          <position x="0" y="-15" z="124.8088" />
+        </offset>
+      </connection>
+      <connection name="spad3_todock" group="spad3" tags="todock ">
+        <offset>
+          <position x="-40" y="-15" z="124.8088" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

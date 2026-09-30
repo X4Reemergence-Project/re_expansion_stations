@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+  <add sel="/icons">
+	<icon name="module_*" texture="extensions\re_expansion_stations\assets\textures\ui\stationmodules\*.png" height="256" width="256"/>	 	
+ </add>
+</diff>

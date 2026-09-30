@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported on 2024-10-10 16:21:58-->
+<components>
+  <component name="buildmodule_bor_ships_xl_alt" class="buildmodule">
+    <source geometry="extensions\ego_dlc_boron\assets\structures\buildmodule\buildmodule_bor_equip_xl_data" />
+    <layers>
+      <layer>
+        <waypoints>
+          <waypoint name="mt_lane_01_waypoint_01" tags="dynamicmasstraffic end speed_normal typenormal " x="1491.35" y="0" z="-80.00848" qx="0" qy="0" qz="0" qw="-1" />
+          <waypoint name="mt_lane_01_waypoint_02" tags="closelink dynamicmasstraffic speed_normal " x="1143.47" y="0" z="-80.00848" qx="-0.5" qy="-0.5" qz="-0.5" qw="-0.5">
+            <links>
+              <link ref="mt_lane_01_waypoint_01" />
+            </links>
+          </waypoint>
+          <waypoint name="mt_lane_02_waypoint_01" tags="dynamicmasstraffic speed_normal start typedock " x="1491.35" y="0" z="80.00848" qx="0.5" qy="0.5" qz="-0.5" qw="-0.5">
+            <links>
+              <link ref="mt_lane_02_waypoint_02" />
+            </links>
+          </waypoint>
+          <waypoint name="mt_lane_02_waypoint_02" tags="closelink dynamicmasstraffic speed_normal typenormal " x="1143.47" y="0" z="80.00848" qx="0" qy="0" qz="0" qw="-1" />
+        </waypoints>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="buildmodule" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="con_aimtarget_01" tags="aimtarget ">
+        <offset>
+          <position x="1569.797" y="0" z="0" />
+        </offset>
+      </connection>
+      <connection name="con_dockingbay_01" tags="dock_xl dockingbay " />
+      <connection name="con_exclusionzone_01" tags="exclusionzone ship_xl ">
+        <offset>
+          <position x="8.74228e-05" y="0" z="-1000" />
+          <quaternion qx="0" qy="-1" qz="0" qw="-1.947e-07" />
+        </offset>
+      </connection>
+      <connection name="con_mission_01" tags="mission ">
+        <offset>
+          <position x="1406.692" y="376.0487" z="0.3222504" />
+          <quaternion qx="0" qy="-0.7071065" qz="0" qw="-0.707107" />
+        </offset>
+      </connection>
+      <connection name="con_mission_02" tags="mission ">
+        <offset>
+          <position x="1365.562" y="0" z="0" />
+          <quaternion qx="0" qy="0.7071068" qz="0" qw="-0.7071067" />
+        </offset>
+      </connection>
+      <connection name="con_snap_01" tags="snap ">
+        <offset>
+          <position x="1800" y="0" z="0.0002746582" />
+          <quaternion qx="0" qy="-0.7071068" qz="0" qw="-0.7071067" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordetail_s_main_02" tags="detail_s forceoutline nocollision part ">
+        <offset>
+          <position x="1414.667" y="0.3831297" z="-0.002850824" />
+        </offset>
+        <parts>
+          <part name="detail_s_main_02">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_alphatexture_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                  <material id="4" ref="p2fx.fx_p2_lightcones_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="477.2335" y="1065.291" z="1135.741" />
+              <center x="-112.2911" y="-0.3831787" z="0.002807617" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main_02" tags="part ">
+        <offset>
+          <position x="1366.258" y="-0.0004254112" z="5.38121e-05" />
+        </offset>
+        <parts>
+          <part name="part_main_02" wreck="part_main_02_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_fx_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_hullpattern_02" />
+                  <material id="4" ref="p2fx.fx_p2_gradientcolour_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_fx_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_hullpattern_02" />
+                  <material id="4" ref="p2fx.fx_p2_gradientcolour_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_fx_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_hullpattern_02" />
+                  <material id="4" ref="p2fx.fx_p2_gradientcolour_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_02" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="551.4006" y="1082.607" z="1030.614" />
+              <center x="-117.6584" y="0.0003662109" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+    </connections>
+  </component>
+</components>

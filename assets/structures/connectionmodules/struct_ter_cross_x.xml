@@ -118,13 +118,13 @@
 							<position x="0" y="-64.10437" z="-69.72237" />
 						</offset>
 					</omni>
-					<omni name="XU Omni_013" shadow="0" r="250" g="180" b="0" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1.2" specularintensity="1">
+					<omni name="XU Omni_013" shadow="0" r="177" g="226" b="255" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1.2" specularintensity="1">
 						<lightanimations />
 						<offset>
 							<position x="-140" y="0" z="140" />
 						</offset>
 					</omni>
-					<omni name="XU Omni_014" shadow="0" r="250" g="100" b="70" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1.2" specularintensity="1">
+					<omni name="XU Omni_014" shadow="0" r="177" g="226" b="255" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1.2" specularintensity="1">
 						<lightanimations />
 						<offset>
 							<position x="140" y="0" z="-140" />
@@ -188,13 +188,13 @@
 							<position x="60.1942" y="-64.10437" z="0" />
 						</offset>
 					</omni>
-					<omni name="XU Omni_013_copy" shadow="0" r="250" g="180" b="0" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1.2" specularintensity="1">
+					<omni name="XU Omni_013_copy" shadow="0" r="177" g="226" b="255" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1.2" specularintensity="1">
 						<lightanimations />
 						<offset>
 							<position x="-140" y="0" z="-140" />
 						</offset>
 					</omni>
-					<omni name="XU Omni_014_copy" shadow="0" r="250" g="100" b="70" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1.2" specularintensity="1">
+					<omni name="XU Omni_014_copy" shadow="0" r="177" g="226" b="255" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="1.2" specularintensity="1">
 						<lightanimations />
 						<offset>
 							<position x="140" y="0" z="140" />

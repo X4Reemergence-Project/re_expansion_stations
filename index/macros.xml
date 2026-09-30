@@ -9,6 +9,10 @@
 		<entry name="struct_bor_cross_classic_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_bor_cross_classic_macro"/>
 		<entry name="struct_ter_arc_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_arc_macro"/>
 		<entry name="struct_ter_cross_x_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_x_macro"/>
+		<entry name="struct_ter_cross_x_02_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_x_02_macro"/>
+		<entry name="struct_ter_cross_y_01_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_y_01_macro"/>
+		<entry name="struct_ter_cross_y_02_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_y_02_macro"/>
+		<entry name="struct_ter_cross_y_03_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_y_03_macro"/>
 		<entry name="struct_ter_cross_classic_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_classic_macro"/>
 		<entry name="struct_ter_cross_hex_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_hex_macro"/>
 		<entry name="struct_ter_cross_t_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_ter_cross_t_macro"/>
@@ -24,5 +28,13 @@
 		<entry name="prod_gen_energycells_fusion_macro" value="extensions\re_expansion_stations\assets\structures\production\macros\prod_gen_energycells_fusion_macro"/>	
 		<entry name="prod_gen_energycells_small_macro" value="extensions\re_expansion_stations\assets\structures\production\macros\prod_gen_energycells_small_macro"/>
 		<entry name="prod_ter_energycells_medium_macro" value="extensions\re_expansion_stations\assets\structures\production\macros\prod_ter_energycells_medium_macro"/>
+		<!--Docks-->
+		<entry name="buildmodule_gen_ships_xl_alt_macro" value="extensions\re_expansion_stations\assets\structures\buildmodule\macros\buildmodule_gen_ships_xl_alt_macro"/>
+		<entry name="buildmodule_gen_ships_l_alt_macro" value="extensions\re_expansion_stations\assets\structures\buildmodule\macros\buildmodule_gen_ships_l_alt_macro"/>
+		<entry name="buildmodule_ter_ships_xl_alt_macro" value="extensions\re_expansion_stations\assets\structures\buildmodule\macros\buildmodule_ter_ships_xl_alt_macro"/>
+		<entry name="buildmodule_ter_ships_l_alt_macro" value="extensions\re_expansion_stations\assets\structures\buildmodule\macros\buildmodule_ter_ships_l_alt_macro"/>
+		<entry name="buildmodule_bor_ships_xl_alt_macro" value="extensions\re_expansion_stations\assets\structures\buildmodule\macros\buildmodule_bor_ships_xl_alt_macro"/>
+		<entry name="dockarea_ter_m8_macro" value="extensions\re_expansion_stations\assets\structures\dock\macros\dockarea_ter_m8_macro"/>
+		<entry name="dockarea_ter_s3_macro" value="extensions\re_expansion_stations\assets\structures\dock\macros\dockarea_ter_s3_macro"/>
 	</add>
 </diff>

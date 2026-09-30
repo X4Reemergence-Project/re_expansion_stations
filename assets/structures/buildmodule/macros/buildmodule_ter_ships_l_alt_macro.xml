@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="buildmodule_ter_ships_l_alt_macro" class="buildmodule" alias="buildmodule_ter_ships_l_macro" ref="buildmodule_ter_ships_l_macro">
+    <component ref="buildmodule_ter_ships_l_alt" />
+    <properties>
+      <identification name="{20104,60301}" shortname="{20104,60303} ALT" description="{20104,60302}" />
+    </properties>
+    <connections>
+      <connection ref="con_dockingbay_01">
+        <macro ref="dockingbay_gen_l_inv_02_macro" connection="con_component" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

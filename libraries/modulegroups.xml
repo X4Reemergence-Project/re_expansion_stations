@@ -26,6 +26,10 @@
 		<select macro="struct_ter_cross_t_vertical_macro"/>
 		<select macro="struct_ter_cross_t_vertical_02_macro"/>
 		<select macro="struct_ter_cross_x_macro"/>
+		<select macro="struct_ter_cross_x_02_macro"/>
+		<select macro="struct_ter_cross_y_01_macro"/>
+		<select macro="struct_ter_cross_y_02_macro"/>
+		<select macro="struct_ter_cross_y_03_macro"/>
 	</add>
 	<add sel="/groups/group[@name='prod_ter_energycells']/select" type="@weight">80</add>
 	<add sel="/groups/group[@name='prod_ter_energycells']">

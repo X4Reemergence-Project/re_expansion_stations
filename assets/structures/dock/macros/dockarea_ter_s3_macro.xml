@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="dockarea_ter_s3_macro" class="dockarea">
+    <component ref="dockarea_ter_s3" />
+    <properties>
+      <identification name="{4837253,16090}" shortname="{4837253,16090}" makerrace="terran" description="{4837253,16091}" />
+      <build>
+        <sets>
+          <set ref="factory" />
+          <set ref="headquarters_player" />
+        </sets>
+      </build>
+      <explosiondamage value="10000" shield="50000" />
+      <storage unit="20" />
+      <hull max="1100000" />
+      <secrecy level="3" />
+      <sounds>
+        <ambient ref="dockingbay_ambient_01" />
+      </sounds>
+      <sound_occlusion inside="0.2" outside="0.2" />
+    </properties>
+    <connections>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro1">
+        <macro ref="dockingbay_arg_s_01_hightech_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro2">
+        <macro ref="dockingbay_arg_s_01_hightech_macro" connection="space" />
+      </connection>
+      <connection ref="ConnectionFor_dockingbay_arg_s_01_macro3">
+        <macro ref="dockingbay_arg_s_01_hightech_macro" connection="space" />
+      </connection>
+      <connection ref="con_shipstorage_m_01">
+        <macro ref="shipstorage_gen_s_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+    </connections>
+  </macro>
+</macros>
