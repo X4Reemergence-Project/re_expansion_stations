@@ -5,11 +5,7 @@
 			<cues>
 				<cue name="Blueprint_GameStart" onfail="cancel">
 					<conditions>
-						<check_any>
-							<event_cue_signalled cue="md.Setup.GameStart"/>
-							<event_player_created/>
-							<event_cue_signalled/>
-						</check_any>
+						<cue_is_complete cue="md.Setup.GameStart"/>
 					</conditions>
 					<actions>
 						<signal_cue cue="Add_Blueprints"/>
