@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdscript name="sme_moduleblueprints">
+	<cues>
+		<cue name="Blueprints_Unlock">
+			<cues>
+				<cue name="Blueprint_GameStart" onfail="cancel">
+					<conditions>
+						<check_any>
+							<event_cue_signalled cue="md.Setup.GameStart"/>
+							<event_player_created/>
+							<event_cue_signalled/>
+						</check_any>
+					</conditions>
+					<actions>
+						<signal_cue cue="Add_Blueprints"/>
+					</actions>
+				</cue>
+				<cue name="Add_Blueprints">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<cues>
+						<!--Blueprint BOR XL Shipyard-->
+						<cue name="Add_Blueprint_BOR_XL_Alt_New_Game" onfail="cancel">
+							<conditions>
+								<check_value value="player.blueprints.{macro.buildmodule_bor_ships_xl_macro.ware}.any.exists"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_BOR_XL_Alt"/>
+								<cancel_cue cue="Add_Blueprint_BOR_XL_Alt_Ongoing_Save"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_BOR_XL_Alt_Ongoing_Save">
+							<conditions>
+								<event_player_blueprint_added macro="macro.buildmodule_bor_ships_xl_macro"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_BOR_XL_Alt"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_BOR_XL_Alt">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<add_blueprints macros="macro.buildmodule_bor_ships_xl_alt_macro"/>
+							</actions>
+						</cue>
+						<!--Blueprint CW L Shipyard-->
+						<cue name="Add_Blueprint_GEN_L_Alt_New_Game" onfail="cancel">
+							<conditions>
+								<check_value value="player.blueprints.{macro.buildmodule_gen_ships_l_macro.ware}.any.exists"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_GEN_L_Alt"/>
+								<cancel_cue cue="Add_Blueprint_GEN_L_Alt_Ongoing_Save"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_GEN_L_Alt_Ongoing_Save">
+							<conditions>
+								<event_player_blueprint_added macro="macro.buildmodule_gen_ships_l_macro"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_GEN_L_Alt"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_GEN_L_Alt">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<add_blueprints macros="macro.buildmodule_gen_ships_l_alt_macro"/>
+							</actions>
+						</cue>
+						<!--Blueprint CW XL Shipard-->
+						<cue name="Add_Blueprint_GEN_XL_Alt_New_Game" onfail="cancel">
+							<conditions>
+								<check_value value="player.blueprints.{macro.buildmodule_gen_ships_xl_macro.ware}.any.exists"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_GEN_XL_Alt"/>
+								<cancel_cue cue="Add_Blueprint_GEN_XL_Alt_Ongoing_Save"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_GEN_XL_Alt_Ongoing_Save">
+							<conditions>
+								<event_player_blueprint_added macro="macro.buildmodule_gen_ships_xl_macro"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_GEN_XL_Alt"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_GEN_XL_Alt">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<add_blueprints macros="macro.buildmodule_gen_ships_xl_alt_macro"/>
+							</actions>
+						</cue>
+						<!--Blueprint TER L Shipyard-->
+						<cue name="Add_Blueprint_TER_L_Alt_New_Game" onfail="cancel">
+							<conditions>
+								<check_value value="player.blueprints.{macro.buildmodule_ter_ships_l_macro.ware}.any.exists"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_TER_L_Alt"/>
+								<cancel_cue cue="Add_Blueprint_TER_L_Alt_Ongoing_Save"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_TER_L_Alt_Ongoing_Save">
+							<conditions>
+								<event_player_blueprint_added macro="macro.buildmodule_ter_ships_l_macro"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_TER_L_Alt"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_TER_L_Alt">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<add_blueprints macros="macro.buildmodule_ter_ships_l_alt_macro"/>
+							</actions>
+						</cue>
+						<!--Blueprint TER XL Shipyard-->
+						<cue name="Add_Blueprint_TER_XL_Alt_New_Game" onfail="cancel">
+							<conditions>
+								<check_value value="player.blueprints.{macro.buildmodule_ter_ships_xl_macro.ware}.any.exists"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_TER_XL_Alt"/>
+								<cancel_cue cue="Add_Blueprint_TER_XL_Alt_Ongoing_Save"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_TER_XL_Alt_Ongoing_Save">
+							<conditions>
+								<event_player_blueprint_added macro="macro.buildmodule_ter_ships_xl_macro"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Add_Blueprint_TER_XL_Alt"/>
+							</actions>
+						</cue>
+						<cue name="Add_Blueprint_TER_XL_Alt">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<add_blueprints macros="macro.buildmodule_ter_ships_xl_alt_macro"/>
+							</actions>
+						</cue>						
+					</cues>
+				</cue>
+			</cues>
+		</cue>
+	</cues>
+</mdscript>
