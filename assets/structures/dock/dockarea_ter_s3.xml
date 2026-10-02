@@ -9,6 +9,7 @@
           <box name="ego_linear" shadow="1" r="178" g="227" b="255" intensity="2.724182" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
             <size x="180" y="180" z="180" />
           </box>
+          <box name="ego_linear001" shadow="1" r="178" g="227" b="255" intensity="3.66492" specularintensity="1" range="15" shadowrange="15" lighteffect="1" lenseffect="none" trigger="0">
             <size x="150" y="15" z="15" />
             <offset>
               <position x="0" y="-3.157003e-06" z="47.62789" />
