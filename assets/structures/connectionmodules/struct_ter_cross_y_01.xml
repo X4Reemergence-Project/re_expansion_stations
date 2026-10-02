@@ -512,13 +512,13 @@
       <connection name="snap004" tags="snap ">
         <offset>
           <position x="0" y="199.9205" z="0" />
-          <quaternion qx="0" qy="3.576279e-07" qz="0" qw="-1" />
+          <quaternion qx="0.7071068" qy="0" qz="0" qw="-0.7071068" />
         </offset>
       </connection>
       <connection name="snap005" tags="snap ">
         <offset>
           <position x="-0.01291656" y="-199.9205" z="6.514869e-05" />
-          <quaternion qx="-1" qy="0" qz="3.576279e-07" qw="-7.54979e-08" />
+          <quaternion qx="-0.7071066" qy="0" qz="0" qw="-0.7071069" />
         </offset>
       </connection>
     </connections>

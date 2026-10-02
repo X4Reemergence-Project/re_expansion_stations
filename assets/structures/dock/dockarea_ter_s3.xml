@@ -9,6 +9,23 @@
           <box name="ego_linear" shadow="1" r="178" g="227" b="255" intensity="2.724182" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
             <size x="180" y="180" z="180" />
           </box>
+            <size x="150" y="15" z="15" />
+            <offset>
+              <position x="0" y="-3.157003e-06" z="47.62789" />
+            </offset>
+          </box>
+          <arealight name="ego_area" areax="100" areay="4" radius="0" spotattenuation="0.5" shadow="1" r="178" g="227" b="255" intensity="1.959078" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="52.87624" z="110.1746" />
+              <quaternion qx="-0.3420201" qy="0" qz="0" qw="-0.9396927" />
+            </offset>
+          </arealight>
+          <arealight name="ego_area001" areax="100" areay="4" radius="0" spotattenuation="0.5" shadow="1" r="178" g="227" b="255" intensity="1.959078" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-52.8762" z="110.1746" />
+              <quaternion qx="-0.9396926" qy="0" qz="0" qw="-0.3420202" />
+            </offset>
+          </arealight>
         </lights>
       </layer>
     </layers>
@@ -97,6 +114,26 @@
                 </uv_property>
               </uv_animation>
             </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_licence" tags="detail_l forceoutline fx nocollision part ">
+        <offset>
+          <position x="0" y="-2.384186e-07" z="-18.22756" />
+        </offset>
+        <parts>
+          <part name="fx_licence">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_logo" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="15" y="15" z="0" />
+              <center x="3.814697e-06" y="0" z="0" />
+            </size>
           </part>
         </parts>
       </connection>
