@@ -48,12 +48,12 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordetaill_m_poslights" tags="detail_m forceoutline nocollision part animation textureanimation ">
+      <connection name="ConnectionFordetail_m_poslights" tags="detail_m forceoutline nocollision part animation textureanimation ">
         <animations>
           <animation name="loop" start="0" end="100" />
         </animations>
         <parts>
-          <part name="detaill_m_poslights">
+          <part name="detail_m_poslights">
             <lods>
               <lod index="0">
                 <materials>
