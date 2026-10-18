@@ -7,7 +7,7 @@
       <layer>
         <lights>
           <box name="ego_linear" shadow="1" r="178" g="227" b="255" intensity="2.724182" specularintensity="1" range="50" shadowrange="50" lighteffect="1" lenseffect="none" trigger="0">
-            <size x="180" y="180" z="180" />
+            <size x="180" y="50" z="50" />
           </box>
           <box name="ego_linear001" shadow="1" r="178" g="227" b="255" intensity="3.66492" specularintensity="1" range="15" shadowrange="15" lighteffect="1" lenseffect="none" trigger="0">
             <size x="150" y="15" z="15" />
@@ -256,7 +256,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionFordetail_m_main" tags="detail_m forceoutline nocollision part ">
+      <connection name="ConnectionFordetail_m_main" tags="detail_l forceoutline nocollision part ">
         <parts>
           <part name="detail_m_main">
             <lods>
@@ -330,8 +330,8 @@
               </lod>
             </lods>
             <size>
-              <max x="117.4823" y="57.93765" z="88.79502" />
-              <center x="-1.907349e-06" y="1.907349e-06" z="18.79489" />
+              <max x="250" y="100" z="160" />
+              <center x="0" y="0" z="20" />
             </size>
           </part>
         </parts>

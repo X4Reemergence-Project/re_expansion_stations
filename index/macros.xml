@@ -4,6 +4,8 @@
 	<!--MODULES-->
 		<!--Connector-->
 		<entry name="struct_arg_cross_y_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_arg_cross_y_macro"/>
+		<entry name="struct_arg_base_half_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_arg_base_half_macro"/>
+		<entry name="struct_arg_vertical_half_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_arg_vertical_half_macro"/>
 		<entry name="struct_tel_cross_y_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_tel_cross_y_macro"/>
 		<entry name="struct_spl_cross_classic_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_spl_cross_classic_macro"/>
 		<entry name="struct_bor_cross_classic_macro" value="extensions\re_expansion_stations\assets\structures\connectionmodules\macros\struct_bor_cross_classic_macro"/>

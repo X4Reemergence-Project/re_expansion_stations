@@ -4,6 +4,8 @@
 	<!--MODULES-->
 		<!--Connector-->
 		<entry name="struct_arg_cross_y" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_arg_cross_y"/>
+		<entry name="struct_arg_base_half" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_arg_base_half"/>
+		<entry name="struct_arg_vertical_half" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_arg_vertical_half"/>
 		<entry name="struct_tel_cross_y" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_tel_cross_y"/>
 		<entry name="struct_spl_cross_classic" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_spl_cross_classic"/>
 		<entry name="struct_bor_cross_classic" value="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_bor_cross_classic"/>

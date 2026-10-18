@@ -221,7 +221,7 @@
       <connection name="snap007" tags="snap ">
         <offset>
           <position x="-519.6157" y="-0.2519078" z="300.0002" />
-          <quaternion qx="0" qy="0.5372996" qz="0" qw="-0.8433914" />
+          <quaternion qx="0" qy="0.5" qz="0" qw="-0.8660254" />
         </offset>
       </connection>
     </connections>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Exported on 2026-10-12 20:17:05 from Blender-->
+<components>
+  <component name="struct_arg_base_half" class="connectionmodule">
+    <source geometry="extensions\re_expansion_stations\assets\structures\connectionmodules\struct_arg_base_half_data" />
+    <layers>
+      <layer>
+        <lights>
+          <omni name="XU Omni115" shadow="0" r="255" g="209" b="186" intensity="0.6059463" specularintensity="1" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="100.712" z="0.4396114" />
+              <quaternion qx="-7.549789e-08" qy="1" qz="7.549791e-08" qw="-1.947072e-07" />
+            </offset>
+          </omni>
+          <omni name="XU Omni135" shadow="0" r="255" g="0" b="0" intensity="1.061743" specularintensity="1" range="17.2" shadowrange="17.2" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.001502037" y="66.3784" z="-71.89194" />
+              <quaternion qx="1.067702e-07" qy="-0.7071068" qz="0" qw="-0.7071067" />
+            </offset>
+          </omni>
+          <omni name="XU Omni147" shadow="0" r="255" g="0" b="0" intensity="1.061743" specularintensity="1" range="17.2" shadowrange="17.2" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.001502037" y="66.3784" z="69.75821" />
+              <quaternion qx="1.067702e-07" qy="-0.7071068" qz="0" qw="-0.7071067" />
+            </offset>
+          </omni>
+          <omni name="XU Omni150" shadow="0" r="255" g="209" b="186" intensity="0.6059463" specularintensity="1" range="100" shadowrange="100" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="0" y="-99.82862" z="0.4396114" />
+              <quaternion qx="-1" qy="-1.509958e-07" qz="1.509958e-07" qw="-7.549788e-08" />
+            </offset>
+          </omni>
+          <omni name="XU Omni156" shadow="0" r="255" g="0" b="0" intensity="1.061743" specularintensity="1" range="17.2" shadowrange="17.2" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.5968291" y="-65.49501" z="69.75821" />
+              <quaternion qx="-0.7071067" qy="-8.429373e-08" qz="0.7071068" qw="-1.910638e-07" />
+            </offset>
+          </omni>
+          <omni name="XU Omni157" shadow="0" r="255" g="0" b="0" intensity="1.061743" specularintensity="1" range="17.2" shadowrange="17.2" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-0.5968291" y="-65.49501" z="-71.89194" />
+              <quaternion qx="-0.7071067" qy="-8.429373e-08" qz="0.7071068" qw="-1.910638e-07" />
+            </offset>
+          </omni>
+          <box name="XU BoxLight003" shadow="0" r="208" g="238" b="255" intensity="1.466122" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <size x="150" y="150" z="150" />
+            <offset>
+              <position x="-127.7422" y="18.4773" z="0.566727" />
+              <quaternion qx="0.5" qy="-0.5" qz="-0.5000001" qw="-0.4999999" />
+            </offset>
+          </box>
+          <box name="XU BoxLight008" shadow="0" r="208" g="238" b="255" intensity="1.466122" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <size x="150" y="150" z="150" />
+            <offset>
+              <position x="125.4028" y="18.4773" z="0.566727" />
+              <quaternion qx="0.5" qy="-0.5" qz="-0.5000001" qw="-0.4999999" />
+            </offset>
+          </box>
+          <box name="XU BoxLight009" shadow="0" r="208" g="238" b="255" intensity="1.466122" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <size x="150" y="150" z="150" />
+            <offset>
+              <position x="125.4028" y="-17.79808" z="0.566727" />
+              <quaternion qx="0.5" qy="-0.5" qz="-0.5000001" qw="-0.4999999" />
+            </offset>
+          </box>
+          <box name="XU BoxLight01" shadow="0" r="208" g="238" b="255" intensity="1.466122" specularintensity="1" range="150" shadowrange="150" lighteffect="1" lenseffect="none" trigger="0">
+            <size x="150" y="150" z="150" />
+            <offset>
+              <position x="-127.7422" y="-17.79808" z="0.566727" />
+              <quaternion qx="0.5" qy="-0.5" qz="-0.5000001" qw="-0.4999999" />
+            </offset>
+          </box>
+          <arealight name="XU AreaLight158" areax="1e-05" areay="5e-06" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-28.44986" y="75.58922" z="0.7880554" />
+              <quaternion qx="0" qy="0" qz="-0.5" qw="-0.8660254" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight158001" areax="1e-05" areay="5e-06" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="26.12946" y="75.58922" z="0.3453994" />
+              <quaternion qx="-0.5" qy="-0.8660254" qz="-3.774895e-08" qw="-6.53831e-08" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight173" areax="1e-05" areay="5e-06" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="27.84913" y="-75.87334" z="0.5996265" />
+              <quaternion qx="2.064766e-07" qy="-1.192093e-07" qz="0.8660254" qw="-0.4999999" />
+            </offset>
+          </arealight>
+          <arealight name="XU AreaLight173001" areax="1e-05" areay="5e-06" radius="0" spotattenuation="0.8611111" shadow="1" r="255" g="216" b="182" intensity="13.06117" specularintensity="1" range="75" shadowrange="75" lighteffect="1" lenseffect="none" trigger="0">
+            <offset>
+              <position x="-30.16952" y="-75.87334" z="0.5338233" />
+              <quaternion qx="-0.8660254" qy="0.4999999" qz="2.443318e-07" qw="-1.41065e-07" />
+            </offset>
+          </arealight>
+        </lights>
+      </layer>
+    </layers>
+    <connections>
+      <connection name="space" tags="connectionmodule" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="connection_info01" tags="info ">
+        <offset>
+          <position x="135.9004" y="0" z="0" />
+        </offset>
+      </connection>
+      <connection name="connection_missionoffer01" tags="mission ">
+        <offset>
+          <position x="-136.7001" y="-3.875061" z="0" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForanim_poslights" tags="animation detail_m forceoutline nocollision part textureanimation ">
+        <animations>
+          <animation name="loop" start="0" end="100" />
+        </animations>
+        <parts>
+          <part name="anim_poslights">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_gradientcolour_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="143.2631" y="76.37831" z="32.19283" />
+              <center x="0" y="0" z="0" />
+            </size>
+            <size_raw>
+              <max x="143.2631" y="76.37831" z="32.19283" />
+              <center x="0" y="0" z="0" />
+            </size_raw>
+            <uv_animations>
+              <uv_animation mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="0" value="0" />
+                  <key frame="100" value="-1" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionFordetail_s_main" tags="detail_s forceoutline nocollision part ">
+        <parts>
+          <part name="detail_s_main">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01_temp" />
+                  <material id="2" ref="p2generic.gen_p2_alphatexture_01" />
+                  <material id="3" ref="p2generic.gen_p2_fx_01" />
+                  <material id="4" ref="p1effects.p1_lightcone_soft" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="144.0997" y="79.42447" z="59.40619" />
+              <center x="0" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_decals" tags="detail_m forceoutline nocollision part ">
+        <parts>
+          <part name="fx_decals">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p1paint.paint_p1_decal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="130.3674" y="71.92372" z="74.1342" />
+              <center x="3.814697e-06" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_main" tags="part ">
+        <parts>
+          <part name="part_main" wreck="part_main_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                  <material id="2" ref="p2generic.gen_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_hulltexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="138.8942" y="71.82372" z="100" />
+              <center x="-3.814697e-06" y="0" z="0" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionSnap001" tags="snap ">
+        <offset>
+          <position x="0" y="0" z="100" />
+        </offset>
+      </connection>
+      <connection name="ConnectionSnap002" tags="snap ">
+        <offset>
+          <position x="0" y="0" z="-100" />
+          <quaternion qx="0" qy="1" qz="0" qw="-7.54979e-08" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

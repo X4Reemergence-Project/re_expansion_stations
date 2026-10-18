@@ -17,6 +17,34 @@
 			<owner faction="argon" />
 			<owner faction="hatikvah" />
 		</ware>
+		<ware id="module_struct_arg_base_half" name="{4837253,11010}" description="{4837253,11011}" transport="container" volume="1" tags="module">
+			<price min="65300" average="76824" max="88348" />
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="claytronics" amount="1" />
+					<ware ware="energycells" amount="5" />
+				</primary>
+			</production>
+			<component ref="struct_arg_base_half_macro" />
+			<restriction licence="station_gen_basic" />
+			<owner faction="antigone" />
+			<owner faction="argon" />
+			<owner faction="hatikvah" />
+		</ware>
+		<ware id="module_struct_arg_vertical_half" name="{4837253,11020}" description="{4837253,11021}" transport="container" volume="1" tags="module">
+			<price min="65300" average="76824" max="88348" />
+			<production time="30" amount="1" method="default" name="{20206,101}">
+				<primary>
+					<ware ware="claytronics" amount="1" />
+					<ware ware="energycells" amount="5" />
+				</primary>
+			</production>
+			<component ref="struct_arg_vertical_half_macro" />
+			<restriction licence="station_gen_basic" />
+			<owner faction="antigone" />
+			<owner faction="argon" />
+			<owner faction="hatikvah" />
+		</ware>
 <!-- Teladi -->
 		<ware id="module_struct_tel_cross_y" name="{4837253,12000}" description="{4837253,12001}" transport="container" volume="1" tags="module">
 			<price min="65300" average="76824" max="88348" />
